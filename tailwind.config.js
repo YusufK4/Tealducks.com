@@ -1,0 +1,65 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#f0f9ff',
+          100: '#e0f2fe',
+          200: '#bae6fd',
+          300: '#7dd3fc',
+          400: '#38bdf8',
+          500: '#0ea5e9',
+          600: '#0284c7',
+          700: '#0369a1',
+          800: '#075985',
+          900: '#0c4a6e',
+          950: '#082f49',
+        },
+        accent: {
+          50: '#fdf4ff',
+          100: '#fae8ff',
+          200: '#f5d0fe',
+          300: '#f0abfc',
+          400: '#e879f9',
+          500: '#d946ef',
+          600: '#c026d3',
+          700: '#a21caf',
+          800: '#86198f',
+          900: '#701a75',
+          950: '#4a044e',
+        },
+        gaming: {
+          50: '#fff7ed',
+          100: '#ffedd5',
+          200: '#fed7aa',
+          300: '#fdba74',
+          400: '#fb923c',
+          500: '#f97316',
+          600: '#ea580c',
+          700: '#c2410c',
+          800: '#9a3412',
+          900: '#7c2d12',
+        },
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-primary': 'linear-gradient(135deg, #d946ef 0%, #f43f5e 100%)',
+        'gradient-gaming': 'linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%)',
+        'gradient-hero': 'linear-gradient(135deg, #06b6d4 0%, #d946ef 100%)',
+        'gradient-cyber': 'linear-gradient(135deg, #22d3ee 0%, #a855f7 50%, #ec4899 100%)',
+      },
+      boxShadow: {
+        'glow': '0 0 20px rgba(217, 70, 239, 0.5)',
+        'glow-lg': '0 0 40px rgba(217, 70, 239, 0.7)',
+        'neon': '0 0 5px theme(colors.primary.400), 0 0 20px theme(colors.primary.600)',
+        'neon-lg': '0 0 10px theme(colors.primary.400), 0 0 40px theme(colors.primary.600), 0 0 80px theme(colors.primary.700)',
+      },
+    },
+  },
+  plugins: [],
+}
