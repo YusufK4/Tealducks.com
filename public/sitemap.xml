@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Home Page -->
+  <url>
+    <loc>https://tealducks.com/</loc>
+    <lastmod>2025-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tealducks.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://tealducks.com/?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tealducks.com/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tealducks.com/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tealducks.com/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tealducks.com/?lang=ar"/>
+  </url>
+  
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://tealducks.com/privacy-policy</loc>
+    <lastmod>2025-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tealducks.com/privacy-policy?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://tealducks.com/privacy-policy?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tealducks.com/privacy-policy?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tealducks.com/privacy-policy?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tealducks.com/privacy-policy?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tealducks.com/privacy-policy?lang=ar"/>
+  </url>
+  
+  <!-- Terms & Conditions -->
+  <url>
+    <loc>https://tealducks.com/terms-conditions</loc>
+    <lastmod>2025-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tealducks.com/terms-conditions?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://tealducks.com/terms-conditions?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tealducks.com/terms-conditions?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tealducks.com/terms-conditions?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tealducks.com/terms-conditions?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://tealducks.com/terms-conditions?lang=ar"/>
+  </url>
+  
+</urlset>
