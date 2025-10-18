@@ -27,6 +27,9 @@ i18n
     supportedLngs: supportedLanguages,
     fallbackLng: 'en',
     
+    // Enable debug mode to see language detection
+    debug: false,
+    
     // Language detection configuration
     detection: {
       // Order of detection methods
@@ -47,5 +50,9 @@ i18n
       escapeValue: false
     }
   })
+
+// Log detected language
+console.log('🌍 Detected browser language:', navigator.language)
+console.log('🎯 i18next language:', i18n.language)
 
 export default i18n
