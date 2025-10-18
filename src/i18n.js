@@ -9,6 +9,9 @@ import fr from './locales/fr.json'
 import es from './locales/es.json'
 import ar from './locales/ar.json'
 
+// Supported languages
+const supportedLanguages = ['en', 'tr', 'de', 'fr', 'es', 'ar']
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
@@ -21,14 +24,27 @@ i18n
       es: { translation: es },
       ar: { translation: ar }
     },
+    supportedLngs: supportedLanguages,
     fallbackLng: 'en',
-    lng: 'en', // Default language
+    
+    // Language detection configuration
+    detection: {
+      // Order of detection methods
+      order: ['querystring', 'localStorage', 'navigator', 'htmlTag'],
+      
+      // Keys to lookup language from
+      lookupQuerystring: 'lang',
+      lookupLocalStorage: 'i18nextLng',
+      
+      // Cache user language
+      caches: ['localStorage'],
+      
+      // Only detect languages we support
+      checkWhitelist: true
+    },
+    
     interpolation: {
       escapeValue: false
-    },
-    detection: {
-      order: ['localStorage', 'navigator'],
-      caches: ['localStorage']
     }
   })
 
