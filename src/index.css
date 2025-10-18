@@ -4,35 +4,22 @@
 
 @layer base {
   body {
-    @apply bg-gradient-to-br from-card-500 via-background-400 to-background-500 text-text-500 min-h-screen;
+    @apply bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 text-gray-100 min-h-screen;
     background-attachment: fixed;
-  }
-  
-  /* Override gray colors for better contrast on warm backgrounds */
-  .text-gray-300 {
-    @apply text-text-400;
-  }
-  
-  .text-gray-400 {
-    @apply text-text-300;
-  }
-  
-  .text-white {
-    @apply text-accent-700;
   }
 }
 
 @layer utilities {
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-700 via-gaming-700 to-highlight-700;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-400 via-accent-400 to-gaming-400;
   }
   
   .text-gradient-alt {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-gaming-700 via-accent-800 to-primary-700;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gaming-400 via-accent-400 to-primary-400;
   }
   
   .text-gradient-light {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-highlight-400 via-primary-400 to-gaming-400;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-300 via-accent-300 to-gaming-300;
   }
   
   .bg-gradient-primary {

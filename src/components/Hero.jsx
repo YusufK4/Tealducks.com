@@ -8,11 +8,11 @@ const Hero = () => {
   return (
     <section id="hero" className="pt-16 md:pt-20 min-h-screen flex items-center relative overflow-hidden">
       {/* Animated Background */}
-      <div className="absolute inset-0 bg-accent-700"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800"></div>
       {/* Animated Orbs */}
-      <div className="absolute top-20 left-10 w-96 h-96 bg-primary-400/30 rounded-full blur-3xl animate-pulse"></div>
-      <div className="absolute bottom-20 right-10 w-[500px] h-[500px] bg-highlight-400/25 rounded-full blur-[100px] animate-pulse" style={{animationDelay: '1s'}}></div>
-      <div className="absolute top-1/3 right-1/4 w-80 h-80 bg-gaming-400/20 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+      <div className="absolute top-20 left-10 w-96 h-96 bg-primary-500/20 rounded-full blur-3xl animate-pulse"></div>
+      <div className="absolute bottom-20 right-10 w-[500px] h-[500px] bg-accent-500/20 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+      <div className="absolute top-1/3 right-1/4 w-80 h-80 bg-gaming-500/15 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
       {/* Grid Pattern */}
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-40"></div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
@@ -32,7 +32,7 @@ const Hero = () => {
           </h1>
 
           {/* Description */}
-          <p className="text-lg sm:text-xl text-white/90 mb-12 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
             {t('hero.description')}
           </p>
 
@@ -60,11 +60,11 @@ const Hero = () => {
           <div className="grid grid-cols-2 gap-12 mt-20 max-w-xl mx-auto">
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">1</div>
-              <div className="text-sm md:text-base text-white/80">{t('hero.stats.games')}</div>
+              <div className="text-sm md:text-base text-gray-400">{t('hero.stats.games')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">{t('hero.stats.comingSoon')}</div>
-              <div className="text-sm md:text-base text-white/80">{t('hero.stats.onPlayStore')}</div>
+              <div className="text-sm md:text-base text-gray-400">{t('hero.stats.onPlayStore')}</div>
             </div>
           </div>
         </div>
