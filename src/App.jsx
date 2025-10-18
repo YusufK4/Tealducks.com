@@ -7,6 +7,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import PrivacyPolicy from './components/PrivacyPolicy'
+import TermsConditions from './components/TermsConditions'
 
 // Home Page Component
 const HomePage = () => (
@@ -27,6 +28,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-conditions" element={<TermsConditions />} />
           </Routes>
         </main>
         <Footer />

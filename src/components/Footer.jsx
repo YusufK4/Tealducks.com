@@ -82,9 +82,9 @@ const Footer = () => {
               <Link to="/privacy-policy" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
                 Gizlilik Politikası
               </Link>
-              <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
+              <Link to="/terms-conditions" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
                 Kullanım Koşulları
-              </a>
+              </Link>
             </div>
           </div>
         </div>
