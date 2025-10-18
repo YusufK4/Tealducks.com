@@ -32,6 +32,8 @@
   "contact": {
     "title": "İletişim",
     "subtitle": "Bizimle iletişime geçin",
+    "getInTouch": "Bize Ulaşın",
+    "description": "Oyunlarımız hakkında geri bildirimlerinizi duymak veya iş birliği fırsatlarını değerlendirmek için bizimle iletişime geçebilirsiniz.",
     "support": "Destek",
     "socialMedia": "Sosyal Medya",
     "form": {

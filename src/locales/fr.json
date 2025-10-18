@@ -32,6 +32,8 @@
   "contact": {
     "title": "Contact",
     "subtitle": "Contactez-nous",
+    "getInTouch": "Nous Contacter",
+    "description": "Nous serions ravis d'entendre vos commentaires sur nos jeux ou de discuter d'opportunités de collaboration.",
     "support": "Support",
     "socialMedia": "Réseaux Sociaux",
     "form": {
