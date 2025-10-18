@@ -7,105 +7,107 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Teal Ducks Brand Colors
+        // Teal Ducks Brand Colors - Warm & Fresh Palette
         primary: {
-          50: '#e6fffd',
-          100: '#ccfffb',
-          200: '#99fff7',
-          300: '#66fff3',
-          400: '#33ffef',
-          500: '#00E5E0', // Ana renk - Turkuaz
-          600: '#00b8b4',
-          700: '#008a87',
-          800: '#005c5a',
-          900: '#002e2d',
+          50: '#e6fffc',
+          100: '#ccfff9',
+          200: '#99fff3',
+          300: '#66ffed',
+          400: '#53efe6',
+          500: '#40E0D0', // Ana vurgu - Turkuaz (Ferah)
+          600: '#33b3a6',
+          700: '#26867d',
+          800: '#1a5a53',
+          900: '#0d2d2a',
         },
         accent: {
-          50: '#ffe6e6',
-          100: '#ffcccc',
-          200: '#ff9999',
-          300: '#ff6666',
-          400: '#ff5959',
-          500: '#FF5252', // CTA - Kırmızı
-          600: '#cc4242',
-          700: '#993131',
-          800: '#662121',
-          900: '#331010',
+          50: '#f5ede8',
+          100: '#ebdbd1',
+          200: '#d7b7a3',
+          300: '#c39375',
+          400: '#977361',
+          500: '#6B4F3B', // Başlıklar, menü - Kahverengi (Sıcak)
+          600: '#563f2f',
+          700: '#402f23',
+          800: '#2b2018',
+          900: '#15100c',
         },
         gaming: {
-          50: '#f3e5f9',
-          100: '#e1bee7',
-          200: '#ce93d8',
-          300: '#ba68c8',
-          400: '#ab47bc',
-          500: '#9C27B0', // Vurgu - Mor
-          600: '#8e24aa',
-          700: '#7b1fa2',
-          800: '#6a1b9a',
-          900: '#4a148c',
+          50: '#e6f7f7',
+          100: '#ccefef',
+          200: '#99dfdf',
+          300: '#66cfcf',
+          400: '#33bfbf',
+          500: '#009B9E', // Sekonder vurgu - Koyu Turkuaz (Derinlik)
+          600: '#007c7e',
+          700: '#005d5f',
+          800: '#003e3f',
+          900: '#001f20',
         },
         highlight: {
-          50: '#fffef5',
-          100: '#fffde6',
-          200: '#fffacc',
-          300: '#fff799',
-          400: '#fff466',
-          500: '#FFEB3B', // Hover - Sarı
-          600: '#fdd835',
-          700: '#fbc02d',
-          800: '#f9a825',
-          900: '#f57f17',
+          50: '#fefcf5',
+          100: '#fdf9eb',
+          200: '#fbf3d7',
+          300: '#f9edc3',
+          400: '#e9d89b',
+          500: '#D4AF37', // İkon, hover - Altın (Lüks)
+          600: '#aa8c2c',
+          700: '#7f6921',
+          800: '#554616',
+          900: '#2a230b',
         },
-        dark: {
-          50: '#1a2332',
-          100: '#141d2b',
-          200: '#0f1724',
-          300: '#0d1420',
-          400: '#0b111c',
-          500: '#0A192F', // Arka plan - Koyu Lacivert
-          600: '#081426',
-          700: '#06101d',
-          800: '#040b13',
-          900: '#02060a',
-        },
-        light: {
+        background: {
           50: '#ffffff',
-          100: '#fafafa',
-          200: '#f7f7f7',
-          300: '#f5f5f5',
-          400: '#f3f3f3',
-          500: '#F5F5F5', // İçerik alanı - Açık Gri
-          600: '#e0e0e0',
-          700: '#bdbdbd',
-          800: '#9e9e9e',
-          900: '#757575',
+          100: '#fefdfb',
+          200: '#fdfbf8',
+          300: '#fcf9f5',
+          400: '#faf8f4',
+          500: '#E9D5B5', // Arka plan - Bej (Yumuşak)
+          600: '#d4ba91',
+          700: '#bf9f6d',
+          800: '#aa8449',
+          900: '#956925',
+        },
+        card: {
+          50: '#ffffff',
+          100: '#fefefe',
+          200: '#fdfdfc',
+          300: '#fcfbfa',
+          400: '#faf9f6',
+          500: '#F9F6F2', // Kart zeminleri - Krem (Ferah)
+          600: '#e8e1d8',
+          700: '#d7ccbe',
+          800: '#c6b7a4',
+          900: '#b5a28a',
         },
         text: {
-          50: '#757575',
-          100: '#616161',
-          200: '#424242',
-          300: '#303030',
-          400: '#282828',
-          500: '#212121', // Metin - Koyu Gri
-          600: '#1a1a1a',
-          700: '#141414',
-          800: '#0d0d0d',
-          900: '#070707',
+          50: '#8b7d6b',
+          100: '#7a6d5d',
+          200: '#695d4f',
+          300: '#584d41',
+          400: '#473d33',
+          500: '#362D25', // Metin - Koyu Kahve
+          600: '#2b241e',
+          700: '#201b16',
+          800: '#15120f',
+          900: '#0a0907',
         },
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-primary': 'linear-gradient(135deg, #00E5E0 0%, #9C27B0 100%)', // Turkuaz → Mor
-        'gradient-gaming': 'linear-gradient(135deg, #FF5252 0%, #9C27B0 100%)', // Kırmızı → Mor
-        'gradient-hero': 'linear-gradient(135deg, #00E5E0 0%, #FF5252 100%)', // Turkuaz → Kırmızı
-        'gradient-cyber': 'linear-gradient(135deg, #00E5E0 0%, #9C27B0 50%, #FF5252 100%)', // Turkuaz → Mor → Kırmızı
-        'gradient-accent': 'linear-gradient(135deg, #9C27B0 0%, #FF5252 100%)', // Mor → Kırmızı
+        'gradient-primary': 'linear-gradient(135deg, #40E0D0 0%, #009B9E 100%)', // Turkuaz → Koyu Turkuaz
+        'gradient-gaming': 'linear-gradient(135deg, #009B9E 0%, #6B4F3B 100%)', // Koyu Turkuaz → Kahve
+        'gradient-hero': 'linear-gradient(135deg, #40E0D0 0%, #D4AF37 100%)', // Turkuaz → Altın
+        'gradient-cyber': 'linear-gradient(135deg, #40E0D0 0%, #009B9E 50%, #D4AF37 100%)', // Turkuaz → Koyu Turkuaz → Altın
+        'gradient-accent': 'linear-gradient(135deg, #6B4F3B 0%, #D4AF37 100%)', // Kahve → Altın
+        'gradient-warm': 'linear-gradient(135deg, #E9D5B5 0%, #F9F6F2 100%)', // Bej → Krem
       },
       boxShadow: {
-        'glow': '0 0 20px rgba(0, 229, 224, 0.5)', // Turkuaz glow
-        'glow-lg': '0 0 40px rgba(0, 229, 224, 0.7)',
-        'glow-accent': '0 0 20px rgba(255, 82, 82, 0.5)', // Kırmızı glow
-        'glow-gaming': '0 0 20px rgba(156, 39, 176, 0.5)', // Mor glow
+        'glow': '0 0 20px rgba(64, 224, 208, 0.4)', // Turkuaz glow
+        'glow-lg': '0 0 40px rgba(64, 224, 208, 0.6)',
+        'glow-accent': '0 0 20px rgba(212, 175, 55, 0.5)', // Altın glow
+        'glow-gaming': '0 0 20px rgba(0, 155, 158, 0.5)', // Koyu Turkuaz glow
+        'glow-warm': '0 0 15px rgba(107, 79, 59, 0.3)', // Kahve glow
         'neon': '0 0 5px theme(colors.primary.400), 0 0 20px theme(colors.primary.600)',
         'neon-lg': '0 0 10px theme(colors.primary.400), 0 0 40px theme(colors.primary.600), 0 0 80px theme(colors.primary.700)',
       },

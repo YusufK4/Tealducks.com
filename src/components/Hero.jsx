@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section id="hero" className="pt-16 md:pt-20 min-h-screen flex items-center relative overflow-hidden">
       {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-dark-500 via-dark-400 to-dark-600"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-background-500 via-background-400 to-card-500"></div>
       {/* Animated Orbs */}
       <div className="absolute top-20 left-10 w-96 h-96 bg-primary-500/20 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-20 right-10 w-[500px] h-[500px] bg-accent-500/20 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>

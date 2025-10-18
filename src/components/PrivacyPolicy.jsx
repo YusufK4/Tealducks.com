@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
   const { t } = useTranslation()
   
   return (
-    <section id="privacy" className="py-20 bg-gradient-to-b from-dark-500 to-dark-600 min-h-screen">
+    <section id="privacy" className="py-20 bg-gradient-to-b from-card-500 to-background-500 min-h-screen">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
