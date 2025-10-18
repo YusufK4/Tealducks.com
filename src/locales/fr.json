@@ -25,6 +25,7 @@
     "comingSoon": "Bientôt Disponible",
     "preRegister": "Préinscription",
     "playNow": "Jouer Maintenant",
+    "viewAll": "Voir tous les jeux",
     "memoryDash": {
       "title": "Memory Dash",
       "description": "Testez votre mémoire avec ce jeu de puzzle rapide. Associez les cartes, battez votre meilleur score et défiez vos amis!",
@@ -36,7 +37,25 @@
     "subtitle": "Nous travaillons pour faire la différence dans le monde du jeu mobile",
     "ourStory": "Notre Histoire",
     "description1": "Teal Ducks est un studio de jeux indépendant né d'une passion pour le développement de jeux. Notre objectif est d'offrir aux joueurs des expériences de jeu mobile de qualité et amusantes.",
-    "description2": "En publiant nos jeux sur la plateforme Google Play, nous visons à offrir des expériences uniques aux joueurs. Dans chacun de nos jeux, nous donnons la priorité à l'expérience du joueur et nous nous efforçons de fournir des mécaniques innovantes et des designs impressionnants."
+    "description2": "En publiant nos jeux sur la plateforme Google Play, nous visons à offrir des expériences uniques aux joueurs. Dans chacun de nos jeux, nous donnons la priorité à l'expérience du joueur et nous nous efforçons de fournir des mécaniques innovantes et des designs impressionnants.",
+    "values": {
+      "mission": {
+        "title": "Notre Mission",
+        "description": "Offrir des expériences inoubliables aux joueurs et apporter des idées innovantes au monde du jeu mobile."
+      },
+      "community": {
+        "title": "Communauté",
+        "description": "Nous écoutons les commentaires de nos joueurs et améliorons continuellement nos jeux."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous créons des mécaniques de jeu et des expériences uniques en utilisant les dernières technologies."
+      },
+      "passion": {
+        "title": "Passion",
+        "description": "Notre passion pour le développement de jeux se reflète dans chaque projet et nous pousse en avant."
+      }
+    }
   },
   "contact": {
     "title": "Contact",

@@ -25,6 +25,7 @@
     "comingSoon": "Demnächst",
     "preRegister": "Vorregistrierung",
     "playNow": "Jetzt Spielen",
+    "viewAll": "Alle Spiele ansehen",
     "memoryDash": {
       "title": "Memory Dash",
       "description": "Teste dein Gedächtnis mit diesem rasanten Puzzlespiel. Finde passende Karten, schlage deinen Highscore und fordere deine Freunde heraus!",
@@ -36,7 +37,25 @@
     "subtitle": "Wir arbeiten daran, einen Unterschied in der mobilen Spielewelt zu machen",
     "ourStory": "Unsere Geschichte",
     "description1": "Teal Ducks ist ein Indie-Spielestudio, das aus der Leidenschaft für Spieleentwicklung entstanden ist. Unser Ziel ist es, Spielern qualitativ hochwertige und unterhaltsame mobile Spielerlebnisse zu bieten.",
-    "description2": "Durch die Veröffentlichung unserer Spiele auf der Google Play-Plattform möchten wir den Spielern einzigartige Erlebnisse bieten. Bei jedem unserer Spiele legen wir Wert auf die Spielererfahrung und bemühen uns, innovative Mechaniken und beeindruckende Designs zu liefern."
+    "description2": "Durch die Veröffentlichung unserer Spiele auf der Google Play-Plattform möchten wir den Spielern einzigartige Erlebnisse bieten. Bei jedem unserer Spiele legen wir Wert auf die Spielererfahrung und bemühen uns, innovative Mechaniken und beeindruckende Designs zu liefern.",
+    "values": {
+      "mission": {
+        "title": "Unsere Mission",
+        "description": "Unvergessliche Erlebnisse für Spieler zu schaffen und innovative Ideen in die mobile Spielewelt zu bringen."
+      },
+      "community": {
+        "title": "Gemeinschaft",
+        "description": "Wir hören auf das Feedback unserer Spieler und verbessern unsere Spiele kontinuierlich."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Wir schaffen einzigartige Spielmechaniken und Erlebnisse mit den neuesten Technologien."
+      },
+      "passion": {
+        "title": "Leidenschaft",
+        "description": "Unsere Leidenschaft für die Spieleentwicklung spiegelt sich in jedem Projekt wider und treibt uns voran."
+      }
+    }
   },
   "contact": {
     "title": "Kontakt",

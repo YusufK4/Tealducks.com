@@ -111,7 +111,7 @@ const Games = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent font-bold hover:from-primary-700 hover:to-accent-700 transition-all"
           >
-            <span>Tüm Oyunları Gör</span>
+            <span>{t('games.viewAll')}</span>
             <ExternalLink className="w-5 h-5" />
           </a>
         </div>

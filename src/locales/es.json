@@ -25,6 +25,7 @@
     "comingSoon": "Próximamente",
     "preRegister": "Pre-registro",
     "playNow": "Jugar Ahora",
+    "viewAll": "Ver todos los juegos",
     "memoryDash": {
       "title": "Memory Dash",
       "description": "Pon a prueba tu memoria con este juego de rompecabezas de ritmo rápido. ¡Empareja cartas, supera tu puntuación más alta y desafía a tus amigos!",
@@ -36,7 +37,25 @@
     "subtitle": "Trabajamos para marcar la diferencia en el mundo de los juegos móviles",
     "ourStory": "Nuestra Historia",
     "description1": "Teal Ducks es un estudio de juegos independiente que comenzó con una pasión por el desarrollo de juegos. Nuestro objetivo es proporcionar experiencias de juego móvil de calidad y divertidas a los jugadores.",
-    "description2": "Al publicar nuestros juegos en la plataforma Google Play, nuestro objetivo es ofrecer experiencias únicas a los jugadores. En cada uno de nuestros juegos, priorizamos la experiencia del jugador y nos esforzamos por ofrecer mecánicas innovadoras y diseños impresionantes."
+    "description2": "Al publicar nuestros juegos en la plataforma Google Play, nuestro objetivo es ofrecer experiencias únicas a los jugadores. En cada uno de nuestros juegos, priorizamos la experiencia del jugador y nos esforzamos por ofrecer mecánicas innovadoras y diseños impresionantes.",
+    "values": {
+      "mission": {
+        "title": "Nuestra Misión",
+        "description": "Proporcionar experiencias inolvidables a los jugadores y aportar ideas innovadoras al mundo de los juegos móviles."
+      },
+      "community": {
+        "title": "Comunidad",
+        "description": "Escuchamos los comentarios de nuestros jugadores y mejoramos continuamente nuestros juegos."
+      },
+      "innovation": {
+        "title": "Innovación",
+        "description": "Creamos mecánicas de juego y experiencias únicas utilizando las últimas tecnologías."
+      },
+      "passion": {
+        "title": "Pasión",
+        "description": "Nuestra pasión por el desarrollo de juegos se refleja en cada proyecto y nos impulsa hacia adelante."
+      }
+    }
   },
   "contact": {
     "title": "Contacto",

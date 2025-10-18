@@ -8,23 +8,23 @@ const About = () => {
   const values = [
     {
       icon: Target,
-      title: "Misyonumuz",
-      description: "Oyunculara unutulmaz deneyimler sunmak ve mobil oyun dünyasına yenilikçi fikirler katmak."
+      title: t('about.values.mission.title'),
+      description: t('about.values.mission.description')
     },
     {
       icon: Users,
-      title: "Topluluk",
-      description: "Oyuncularımızın geri bildirimlerini dinliyor ve oyunlarımızı sürekli geliştiriyoruz."
+      title: t('about.values.community.title'),
+      description: t('about.values.community.description')
     },
     {
       icon: Zap,
-      title: "İnovasyon",
-      description: "En son teknolojileri kullanarak benzersiz oyun mekanikleri ve deneyimler yaratıyoruz."
+      title: t('about.values.innovation.title'),
+      description: t('about.values.innovation.description')
     },
     {
       icon: Heart,
-      title: "Tutku",
-      description: "Oyun geliştirmeye olan tutkumuz, her projemize yansıyor ve bizi ileriye taşıyor."
+      title: t('about.values.passion.title'),
+      description: t('about.values.passion.description')
     }
   ]
 
