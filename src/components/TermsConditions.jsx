@@ -5,7 +5,7 @@ const TermsConditions = () => {
   const { t } = useTranslation()
   
   return (
-    <section id="terms" className="py-20 bg-gradient-to-b from-card-500 to-background-500 min-h-screen">
+    <section id="terms" className="py-20 bg-gradient-to-b from-[#0A192F] to-[#B87333] min-h-screen">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
@@ -13,7 +13,7 @@ const TermsConditions = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               <span className="text-gradient">{t('terms.title')}</span>
             </h1>
-            <p className="text-gray-400">{t('terms.lastUpdated')}</p>
+            <p className="text-white/70">{t('terms.lastUpdated')}</p>
           </div>
 
           {/* Content */}
