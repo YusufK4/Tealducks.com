@@ -1,7 +1,10 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Target, Users, Zap, Heart } from 'lucide-react'
 
 const About = () => {
+  const { t } = useTranslation()
+  
   const values = [
     {
       icon: Target,
@@ -32,10 +35,10 @@ const About = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            <span className="text-gradient">Hakkımızda</span>
+            <span className="text-gradient">{t('about.title')}</span>
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Teal Ducks olarak, mobil oyun dünyasında fark yaratmak için çalışıyoruz
+            {t('about.subtitle')}
           </p>
         </div>
 
@@ -47,18 +50,10 @@ const About = () => {
             </h3>
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
-                Teal Ducks, oyun geliştirmeye olan tutkuyla yola çıkan bir indie oyun stüdyosudur. 
-                Amacımız, oyunculara kaliteli ve eğlenceli mobil oyun deneyimleri sunmaktır.
+                {t('about.description1')}
               </p>
               <p>
-                Google Play platformunda oyunlarımızı yayınlayarak, oyunculara benzersiz deneyimler sunmayı hedefliyoruz. 
-                Her oyunumuzda, oyuncu deneyimini ön planda tutarak, yenilikçi mekanikler ve 
-                etkileyici tasarımlar sunmaya özen gösteriyoruz.
-              </p>
-              <p>
-                Küçük ama tutkulu ekibimizle, oyun endüstrisinde iz bırakmaya devam ediyoruz. 
-                Oyuncularımızın geri bildirimleri bizim için çok değerli ve her gün daha iyisini 
-                yapmak için çalışıyoruz.
+                {t('about.description2')}
               </p>
             </div>
           </div>

@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { Gamepad2, Mail, ExternalLink } from 'lucide-react'
 
 const Footer = () => {
+  const { t } = useTranslation()
   const currentYear = new Date().getFullYear()
 
   return (
@@ -15,30 +17,30 @@ const Footer = () => {
               <div className="w-10 h-10 bg-gradient-to-br from-primary-500 via-accent-500 to-gaming-500 rounded-xl flex items-center justify-center shadow-lg shadow-primary-500/50">
                 <Gamepad2 className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-gradient-light">Teal Ducks</span>
+              <span className="text-xl font-bold text-gradient-light">{t('footer.brand')}</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Mobil platformlar için yenilikçi ve eğlenceli oyunlar geliştiren indie oyun stüdyosu.
+              {t('hero.description')}
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Hızlı Bağlantılar</h3>
+            <h3 className="text-white font-semibold mb-4">{t('footer.quickLinks')}</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#games" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
-                  Oyunlar
+                  {t('nav.games')}
                 </a>
               </li>
               <li>
                 <a href="#about" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
-                  Hakkımızda
+                  {t('nav.about')}
                 </a>
               </li>
               <li>
                 <a href="#contact" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
-                  İletişim
+                  {t('nav.contact')}
                 </a>
               </li>
               <li>
@@ -57,7 +59,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h3 className="text-white font-semibold mb-4">İletişim</h3>
+            <h3 className="text-white font-semibold mb-4">{t('footer.contact')}</h3>
             <ul className="space-y-2">
               <li>
                 <a
@@ -76,14 +78,14 @@ const Footer = () => {
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Teal Ducks. Tüm hakları saklıdır.
+              © {currentYear} {t('footer.brand')}. {t('footer.rights')}
             </p>
             <div className="flex space-x-6">
               <Link to="/privacy-policy" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
-                Gizlilik Politikası
+                {t('footer.privacyPolicy')}
               </Link>
               <Link to="/terms-conditions" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
-                Kullanım Koşulları
+                {t('footer.termsConditions')}
               </Link>
             </div>
           </div>

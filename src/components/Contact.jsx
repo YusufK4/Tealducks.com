@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Mail, MessageSquare, Send } from 'lucide-react'
 
 const Contact = () => {
+  const { t } = useTranslation()
+  
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -38,10 +41,10 @@ const Contact = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            <span className="text-gradient">İletişim</span>
+            <span className="text-gradient">{t('contact.title')}</span>
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Sorularınız, önerileriniz veya iş birliği teklifleriniz için bize ulaşın
+            {t('contact.subtitle')}
           </p>
         </div>
 
@@ -61,7 +64,7 @@ const Contact = () => {
                     <MessageSquare className="w-6 h-6 text-primary-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white mb-1">Destek</h4>
+                    <h4 className="font-semibold text-white mb-1">{t('contact.support')}</h4>
                     <a href="mailto:Yusuf@tealducks.com" className="bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent hover:from-primary-700 hover:to-accent-700">
                       Yusuf@tealducks.com
                     </a>
@@ -71,7 +74,7 @@ const Contact = () => {
 
               {/* Social Links */}
               <div className="mt-8 pt-8 border-t border-white/10">
-                <h4 className="font-semibold text-white mb-4">Sosyal Medya</h4>
+                <h4 className="font-semibold text-white mb-4">{t('contact.socialMedia')}</h4>
                 <div className="flex space-x-4">
                   <a
                     href="https://www.instagram.com/teal.ducks"
@@ -93,7 +96,7 @@ const Contact = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
-                    Adınız
+                    {t('contact.form.name')}
                   </label>
                   <input
                     type="text"
@@ -103,13 +106,13 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 glass border border-white/20 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all text-white placeholder-gray-400"
-                    placeholder="Adınız Soyadınız"
+                    placeholder={t('contact.form.namePlaceholder')}
                   />
                 </div>
 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
-                    Email
+                    {t('contact.form.email')}
                   </label>
                   <input
                     type="email"
@@ -119,13 +122,13 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 glass border border-white/20 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all text-white placeholder-gray-400"
-                    placeholder="ornek@email.com"
+                    placeholder={t('contact.form.emailPlaceholder')}
                   />
                 </div>
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
-                    Mesajınız
+                    {t('contact.form.message')}
                   </label>
                   <textarea
                     id="message"
@@ -135,7 +138,7 @@ const Contact = () => {
                     required
                     rows="5"
                     className="w-full px-4 py-3 glass border border-white/20 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all text-white placeholder-gray-400 resize-none"
-                    placeholder="Mesajınızı buraya yazın..."
+                    placeholder={t('contact.form.messagePlaceholder')}
                   />
                 </div>
 
@@ -143,7 +146,7 @@ const Contact = () => {
                   type="submit"
                   className="w-full inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-primary-500 via-accent-500 to-gaming-500 text-white px-6 py-4 rounded-xl font-bold shadow-2xl shadow-primary-500/50 hover:shadow-accent-500/50 transition-all transform hover:scale-105 hover:-translate-y-1"
                 >
-                  <span>Mesaj Gönder</span>
+                  <span>{t('contact.form.submit')}</span>
                   <Send className="w-5 h-5" />
                 </button>
               </form>

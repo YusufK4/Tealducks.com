@@ -1,18 +1,21 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Star, Download, ExternalLink } from 'lucide-react'
 
 const Games = () => {
+  const { t } = useTranslation()
+  
   // Buraya kendi oyunlarınızı ekleyebilirsiniz
   const games = [
     {
       id: 1,
-      title: "Oyun Adı",
-      description: "Heyecan verici bir oyun. Eşsiz mekanikler ve etkileyici grafiklerle dolu. Yakında Google Play'de!",
-      image: "https://via.placeholder.com/400x300/d946ef/ffffff?text=Yakında",
+      title: t('games.memoryDash.title'),
+      description: t('games.memoryDash.description'),
+      image: "https://via.placeholder.com/400x300/d946ef/ffffff?text=Coming+Soon",
       rating: 0,
-      downloads: "Yakında",
+      downloads: t('games.comingSoon'),
       playStoreUrl: "#",
-      category: "Yakında"
+      category: t('games.memoryDash.genre')
     }
   ]
 
@@ -24,10 +27,10 @@ const Games = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            <span className="text-gradient">Oyunlarımız</span>
+            <span className="text-gradient">{t('games.title')}</span>
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Google Play'de yayınlanan en popüler oyunlarımızı keşfedin
+            {t('games.subtitle')}
           </p>
         </div>
 
@@ -72,7 +75,7 @@ const Games = () => {
                 )}
                 {game.rating === 0 && (
                   <div className="mb-4 text-center py-2">
-                    <span className="text-primary-400 font-semibold">Yakında Google Play'de!</span>
+                    <span className="text-primary-400 font-semibold">{t('games.comingSoon')}</span>
                   </div>
                 )}
 
@@ -84,7 +87,7 @@ const Games = () => {
                     rel="noopener noreferrer"
                     className="w-full inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-primary-500 via-accent-500 to-gaming-500 text-white px-6 py-3 rounded-xl font-bold shadow-lg shadow-primary-500/30 hover:shadow-accent-500/40 transition-all duration-300 transform hover:scale-[1.02]"
                   >
-                    <span>Google Play'de Aç</span>
+                    <span>{t('games.playNow')}</span>
                     <ExternalLink className="w-4 h-4" />
                   </a>
                 ) : (
@@ -92,7 +95,7 @@ const Games = () => {
                     disabled
                     className="w-full inline-flex items-center justify-center space-x-2 glass text-gray-400 px-6 py-3 rounded-xl font-bold cursor-not-allowed"
                   >
-                    <span>Yakında</span>
+                    <span>{t('games.comingSoon')}</span>
                   </button>
                 )}
               </div>
