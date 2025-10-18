@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "games": "الألعاب",
+    "about": "من نحن",
+    "contact": "اتصل بنا"
+  },
+  "hero": {
+    "title": "مرحباً بكم في Teal Ducks",
+    "subtitle": "استوديو ألعاب مستقل",
+    "badge": "نشط على Google Play",
+    "description": "نصنع ألعاب موبايل ممتعة وجذابة",
+    "cta": "استكشف الألعاب",
+    "playStore": "عرض على Google Play",
+    "stats": {
+      "games": "لعبة مطورة",
+      "comingSoon": "قريباً",
+      "onPlayStore": "على Google Play",
+      "passion": "بشغف"
+    }
+  },
+  "games": {
+    "title": "ألعابنا",
+    "subtitle": "اكتشف ألعاب الموبايل الخاصة بنا",
+    "comingSoon": "قريباً",
+    "preRegister": "التسجيل المسبق",
+    "playNow": "العب الآن",
+    "memoryDash": {
+      "title": "Memory Dash",
+      "description": "اختبر ذاكرتك مع لعبة الألغاز السريعة هذه. طابق البطاقات، تغلب على أعلى نقاطك، وتحدى أصدقائك!",
+      "genre": "ألغاز"
+    }
+  },
+  "about": {
+    "title": "من نحن",
+    "subtitle": "نعمل لإحداث فرق في عالم ألعاب الموبايل",
+    "ourStory": "قصتنا",
+    "description1": "Teal Ducks هو استوديو ألعاب مستقل بدأ بشغف لتطوير الألعاب. هدفنا هو تقديم تجارب ألعاب موبايل ممتعة وعالية الجودة للاعبين.",
+    "description2": "من خلال نشر ألعابنا على منصة Google Play، نهدف إلى تقديم تجارب فريدة للاعبين. في كل لعبة من ألعابنا، نعطي الأولوية لتجربة اللاعب ونسعى جاهدين لتقديم آليات مبتكرة وتصاميم مذهلة."
+  },
+  "contact": {
+    "title": "اتصل بنا",
+    "subtitle": "تواصل معنا",
+    "getInTouch": "تواصل معنا",
+    "description": "يسعدنا سماع ملاحظاتك حول ألعابنا أو مناقشة فرص التعاون.",
+    "support": "الدعم",
+    "socialMedia": "وسائل التواصل الاجتماعي",
+    "form": {
+      "name": "اسمك",
+      "namePlaceholder": "اسمك الكامل",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "email@example.com",
+      "message": "الرسالة",
+      "messagePlaceholder": "رسالتك...",
+      "submit": "إرسال الرسالة"
+    }
+  },
+  "footer": {
+    "brand": "Teal Ducks",
+    "quickLinks": "روابط سريعة",
+    "contact": "اتصل بنا",
+    "support": "الدعم",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsConditions": "الشروط والأحكام",
+    "rights": "جميع الحقوق محفوظة."
+  },
+  "privacy": {
+    "title": "سياسة الخصوصية",
+    "lastUpdated": "آخر تحديث: 18 أكتوبر 2025",
+    "backToHome": "← العودة إلى الرئيسية"
+  },
+  "terms": {
+    "title": "الشروط والأحكام",
+    "lastUpdated": "آخر تحديث: 18 أكتوبر 2025",
+    "backToHome": "← العودة إلى الرئيسية"
+  }
+}
