@@ -47,11 +47,11 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <div className="flex items-center space-x-2 cursor-pointer" onClick={() => scrollToSection('hero')}>
+          <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection('hero')}>
             <div className="w-10 h-10 bg-gradient-to-br from-primary-500 via-accent-500 to-gaming-500 rounded-xl flex items-center justify-center shadow-lg shadow-primary-500/50 hover:shadow-accent-500/50 transition-all hover:scale-110">
               <Gamepad2 className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl md:text-2xl font-bold text-gradient">Teal Ducks</span>
+            <span className="text-xl md:text-2xl font-bold text-gradient" dir="ltr">Teal Ducks</span>
           </div>
 
           {/* Desktop Navigation */}

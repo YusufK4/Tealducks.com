@@ -58,13 +58,13 @@ const Contact = () => {
               </p>
 
               <div className="space-y-6">
-                <div className="flex items-start space-x-4">
+                <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-gradient-to-br from-primary-100 to-accent-100 rounded-lg flex items-center justify-center flex-shrink-0">
                     <MessageSquare className="w-6 h-6 text-primary-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-white mb-1">{t('contact.support')}</h4>
-                    <a href="mailto:Yusuf@tealducks.com" className="bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent hover:from-primary-700 hover:to-accent-700">
+                    <a href="mailto:Yusuf@tealducks.com" className="bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent hover:from-primary-700 hover:to-accent-700 block" dir="ltr">
                       Yusuf@tealducks.com
                     </a>
                   </div>

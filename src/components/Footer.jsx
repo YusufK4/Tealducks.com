@@ -13,11 +13,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
+            <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-primary-500 via-accent-500 to-gaming-500 rounded-xl flex items-center justify-center shadow-lg shadow-primary-500/50">
                 <Gamepad2 className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-gradient-light">{t('footer.brand')}</span>
+              <span className="text-xl font-bold text-gradient-light" dir="ltr">{t('footer.brand')}</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               {t('hero.description')}
