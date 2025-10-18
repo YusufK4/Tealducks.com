@@ -24,15 +24,15 @@
 
 @layer utilities {
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 via-gaming-600 to-highlight-600;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-700 via-gaming-700 to-highlight-700;
   }
   
   .text-gradient-alt {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-gaming-600 via-accent-600 to-primary-600;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gaming-700 via-accent-800 to-primary-700;
   }
   
   .text-gradient-light {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-500 via-gaming-500 to-highlight-500;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-highlight-400 via-primary-400 to-gaming-400;
   }
   
   .bg-gradient-primary {
