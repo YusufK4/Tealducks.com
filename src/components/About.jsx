@@ -46,7 +46,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto mb-16">
           <div className="glass-strong rounded-2xl shadow-2xl p-8 md:p-12">
             <h3 className="text-2xl md:text-3xl font-bold mb-6">
-              <span className="text-gradient">Hikayemiz</span>
+              <span className="text-gradient">{t('about.ourStory')}</span>
             </h3>
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>

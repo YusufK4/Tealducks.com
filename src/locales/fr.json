@@ -9,7 +9,14 @@
     "title": "Bienvenue chez Teal Ducks",
     "subtitle": "Studio de Jeux Indépendant",
     "description": "Nous créons des jeux mobiles amusants et captivants",
-    "cta": "Découvrir les Jeux"
+    "cta": "Découvrir les Jeux",
+    "playStore": "Voir sur Google Play",
+    "stats": {
+      "games": "Jeu Développé",
+      "comingSoon": "Bientôt Disponible",
+      "onPlayStore": "Sur Google Play",
+      "passion": "Avec Passion"
+    }
   },
   "games": {
     "title": "Nos Jeux",
@@ -26,6 +33,7 @@
   "about": {
     "title": "À Propos",
     "subtitle": "Nous travaillons pour faire la différence dans le monde du jeu mobile",
+    "ourStory": "Notre Histoire",
     "description1": "Teal Ducks est un studio de jeux indépendant né d'une passion pour le développement de jeux. Notre objectif est d'offrir aux joueurs des expériences de jeu mobile de qualité et amusantes.",
     "description2": "En publiant nos jeux sur la plateforme Google Play, nous visons à offrir des expériences uniques aux joueurs. Dans chacun de nos jeux, nous donnons la priorité à l'expérience du joueur et nous nous efforçons de fournir des mécaniques innovantes et des designs impressionnants."
   },

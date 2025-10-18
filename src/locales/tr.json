@@ -9,7 +9,14 @@
     "title": "Teal Ducks'a Hoş Geldiniz",
     "subtitle": "Bağımsız Oyun Stüdyosu",
     "description": "Eğlenceli ve sürükleyici mobil oyunlar yaratıyoruz",
-    "cta": "Oyunları Keşfet"
+    "cta": "Oyunları Keşfet",
+    "playStore": "Google Play'de Gör",
+    "stats": {
+      "games": "Oyun Geliştirildi",
+      "comingSoon": "Yakında",
+      "onPlayStore": "Google Play'de",
+      "passion": "Tutku ile"
+    }
   },
   "games": {
     "title": "Oyunlarımız",
@@ -26,6 +33,7 @@
   "about": {
     "title": "Hakkımızda",
     "subtitle": "Mobil oyun dünyasında fark yaratmak için çalışıyoruz",
+    "ourStory": "Hikayemiz",
     "description1": "Teal Ducks, oyun geliştirmeye olan tutkuyla yola çıkan bir indie oyun stüdyosudur. Amacımız, oyunculara kaliteli ve eğlenceli mobil oyun deneyimleri sunmaktır.",
     "description2": "Google Play platformunda oyunlarımızı yayınlayarak, oyunculara benzersiz deneyimler sunmayı hedefliyoruz. Her oyunumuzda, oyuncu deneyimini ön planda tutarak, yenilikçi mekanikler ve etkileyici tasarımlar sunmaya özen gösteriyoruz."
   },

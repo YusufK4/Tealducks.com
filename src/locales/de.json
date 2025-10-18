@@ -9,7 +9,14 @@
     "title": "Willkommen bei Teal Ducks",
     "subtitle": "Indie-Spielestudio",
     "description": "Wir entwickeln unterhaltsame und fesselnde Mobile Games",
-    "cta": "Spiele Entdecken"
+    "cta": "Spiele Entdecken",
+    "playStore": "Auf Google Play ansehen",
+    "stats": {
+      "games": "Spiel Entwickelt",
+      "comingSoon": "Demnächst",
+      "onPlayStore": "Auf Google Play",
+      "passion": "Mit Leidenschaft"
+    }
   },
   "games": {
     "title": "Unsere Spiele",
@@ -26,6 +33,7 @@
   "about": {
     "title": "Über Uns",
     "subtitle": "Wir arbeiten daran, einen Unterschied in der mobilen Spielewelt zu machen",
+    "ourStory": "Unsere Geschichte",
     "description1": "Teal Ducks ist ein Indie-Spielestudio, das aus der Leidenschaft für Spieleentwicklung entstanden ist. Unser Ziel ist es, Spielern qualitativ hochwertige und unterhaltsame mobile Spielerlebnisse zu bieten.",
     "description2": "Durch die Veröffentlichung unserer Spiele auf der Google Play-Plattform möchten wir den Spielern einzigartige Erlebnisse bieten. Bei jedem unserer Spiele legen wir Wert auf die Spielererfahrung und bemühen uns, innovative Mechaniken und beeindruckende Designs zu liefern."
   },

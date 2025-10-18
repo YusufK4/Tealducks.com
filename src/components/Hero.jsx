@@ -52,7 +52,7 @@ const Hero = () => {
               className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 glass-strong text-white px-8 py-4 rounded-xl font-bold hover:bg-white/20 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1"
             >
               <Download className="w-5 h-5" />
-              <span>Google Play'de Gör</span>
+              <span>{t('hero.playStore')}</span>
             </a>
           </div>
 
@@ -60,15 +60,15 @@ const Hero = () => {
           <div className="grid grid-cols-3 gap-8 mt-20 max-w-2xl mx-auto">
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">1</div>
-              <div className="text-sm md:text-base text-gray-400">Oyun Geliştirildi</div>
+              <div className="text-sm md:text-base text-gray-400">{t('hero.stats.games')}</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">Yakında</div>
-              <div className="text-sm md:text-base text-gray-400">Google Play'de</div>
+              <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">{t('hero.stats.comingSoon')}</div>
+              <div className="text-sm md:text-base text-gray-400">{t('hero.stats.onPlayStore')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">100%</div>
-              <div className="text-sm md:text-base text-gray-400">Tutku ile</div>
+              <div className="text-sm md:text-base text-gray-400">{t('hero.stats.passion')}</div>
             </div>
           </div>
         </div>
