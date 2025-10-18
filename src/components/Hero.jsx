@@ -1,7 +1,10 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Play, Download } from 'lucide-react'
 
 const Hero = () => {
+  const { t } = useTranslation()
+  
   return (
     <section id="hero" className="pt-16 md:pt-20 min-h-screen flex items-center relative overflow-hidden">
       {/* Animated Background */}
@@ -20,20 +23,17 @@ const Hero = () => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-3 w-3 bg-gradient-to-r from-green-400 to-emerald-400"></span>
             </span>
-            <span className="text-sm font-bold text-gradient-light">Google Play'de Aktif</span>
+            <span className="text-sm font-bold text-gradient-light">{t('hero.subtitle')}</span>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
-            <span className="text-gradient">Eğlenceli Oyunlar</span>
-            <br />
-            <span className="text-white">Yaratıyoruz</span>
+            <span className="text-gradient">{t('hero.title')}</span>
           </h1>
 
           {/* Description */}
           <p className="text-lg sm:text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-            Mobil platformlar için yenilikçi ve eğlenceli oyunlar geliştiren bir indie oyun stüdyosuyuz. 
-            Oyunlarımız Google Play'de milyonlarca oyuncu tarafından oynanıyor.
+            {t('hero.description')}
           </p>
 
           {/* CTA Buttons */}
@@ -43,7 +43,7 @@ const Hero = () => {
               className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-primary-500 via-accent-500 to-gaming-500 text-white px-8 py-4 rounded-xl font-bold shadow-2xl shadow-primary-500/50 hover:shadow-accent-500/50 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1"
             >
               <Play className="w-5 h-5" />
-              <span>Oyunları Keşfet</span>
+              <span>{t('hero.cta')}</span>
             </a>
             <a
               href="https://play.google.com/store/apps/dev?id=YOUR_DEVELOPER_ID"

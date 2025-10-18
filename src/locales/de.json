@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "games": "Spiele",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Willkommen bei Teal Ducks",
+    "subtitle": "Indie-Spielestudio",
+    "description": "Wir entwickeln unterhaltsame und fesselnde Mobile Games",
+    "cta": "Spiele Entdecken"
+  },
+  "games": {
+    "title": "Unsere Spiele",
+    "subtitle": "Entdecken Sie unsere Mobile Games",
+    "comingSoon": "Demnächst",
+    "preRegister": "Vorregistrierung",
+    "playNow": "Jetzt Spielen",
+    "memoryDash": {
+      "title": "Memory Dash",
+      "description": "Teste dein Gedächtnis mit diesem rasanten Puzzlespiel. Finde passende Karten, schlage deinen Highscore und fordere deine Freunde heraus!",
+      "genre": "Puzzle"
+    }
+  },
+  "about": {
+    "title": "Über Uns",
+    "subtitle": "Wir arbeiten daran, einen Unterschied in der mobilen Spielewelt zu machen",
+    "description1": "Teal Ducks ist ein Indie-Spielestudio, das aus der Leidenschaft für Spieleentwicklung entstanden ist. Unser Ziel ist es, Spielern qualitativ hochwertige und unterhaltsame mobile Spielerlebnisse zu bieten.",
+    "description2": "Durch die Veröffentlichung unserer Spiele auf der Google Play-Plattform möchten wir den Spielern einzigartige Erlebnisse bieten. Bei jedem unserer Spiele legen wir Wert auf die Spielererfahrung und bemühen uns, innovative Mechaniken und beeindruckende Designs zu liefern."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Nehmen Sie Kontakt mit uns auf",
+    "support": "Support",
+    "socialMedia": "Soziale Medien",
+    "form": {
+      "name": "Ihr Name",
+      "namePlaceholder": "Ihr vollständiger Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre@email.com",
+      "message": "Nachricht",
+      "messagePlaceholder": "Ihre Nachricht...",
+      "submit": "Nachricht Senden"
+    }
+  },
+  "footer": {
+    "brand": "Teal Ducks",
+    "quickLinks": "Schnelllinks",
+    "contact": "Kontakt",
+    "support": "Support",
+    "privacyPolicy": "Datenschutz",
+    "termsConditions": "AGB",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Zuletzt aktualisiert: 18. Oktober 2025",
+    "backToHome": "← Zurück zur Startseite"
+  },
+  "terms": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: 18. Oktober 2025",
+    "backToHome": "← Zurück zur Startseite"
+  }
+}

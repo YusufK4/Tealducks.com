@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Home",
+    "games": "Games",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Welcome to Teal Ducks",
+    "subtitle": "Indie Game Studio",
+    "description": "We create fun and engaging mobile games",
+    "cta": "Explore Games"
+  },
+  "games": {
+    "title": "Our Games",
+    "subtitle": "Discover our mobile games",
+    "comingSoon": "Coming Soon",
+    "preRegister": "Pre-Register",
+    "playNow": "Play Now",
+    "memoryDash": {
+      "title": "Memory Dash",
+      "description": "Test your memory with this fast-paced puzzle game. Match cards, beat your high score, and challenge your friends!",
+      "genre": "Puzzle"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "We work to make a difference in the mobile gaming world",
+    "description1": "Teal Ducks is an indie game studio that started with a passion for game development. Our goal is to provide quality and fun mobile gaming experiences to players.",
+    "description2": "By publishing our games on the Google Play platform, we aim to offer unique experiences to players. In each of our games, we prioritize player experience and strive to deliver innovative mechanics and impressive designs."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us",
+    "support": "Support",
+    "socialMedia": "Social Media",
+    "form": {
+      "name": "Your Name",
+      "namePlaceholder": "Your Full Name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "brand": "Teal Ducks",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "support": "Support",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "rights": "All rights reserved."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: October 18, 2025",
+    "backToHome": "← Back to Home"
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "Last updated: October 18, 2025",
+    "backToHome": "← Back to Home"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "games": "Juegos",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Bienvenido a Teal Ducks",
+    "subtitle": "Estudio de Juegos Independiente",
+    "description": "Creamos juegos móviles divertidos y atractivos",
+    "cta": "Explorar Juegos"
+  },
+  "games": {
+    "title": "Nuestros Juegos",
+    "subtitle": "Descubre nuestros juegos móviles",
+    "comingSoon": "Próximamente",
+    "preRegister": "Pre-registro",
+    "playNow": "Jugar Ahora",
+    "memoryDash": {
+      "title": "Memory Dash",
+      "description": "Pon a prueba tu memoria con este juego de rompecabezas de ritmo rápido. ¡Empareja cartas, supera tu puntuación más alta y desafía a tus amigos!",
+      "genre": "Rompecabezas"
+    }
+  },
+  "about": {
+    "title": "Acerca de Nosotros",
+    "subtitle": "Trabajamos para marcar la diferencia en el mundo de los juegos móviles",
+    "description1": "Teal Ducks es un estudio de juegos independiente que comenzó con una pasión por el desarrollo de juegos. Nuestro objetivo es proporcionar experiencias de juego móvil de calidad y divertidas a los jugadores.",
+    "description2": "Al publicar nuestros juegos en la plataforma Google Play, nuestro objetivo es ofrecer experiencias únicas a los jugadores. En cada uno de nuestros juegos, priorizamos la experiencia del jugador y nos esforzamos por ofrecer mecánicas innovadoras y diseños impresionantes."
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Ponte en contacto con nosotros",
+    "support": "Soporte",
+    "socialMedia": "Redes Sociales",
+    "form": {
+      "name": "Tu Nombre",
+      "namePlaceholder": "Tu nombre completo",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Tu mensaje...",
+      "submit": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "brand": "Teal Ducks",
+    "quickLinks": "Enlaces Rápidos",
+    "contact": "Contacto",
+    "support": "Soporte",
+    "privacyPolicy": "Política de Privacidad",
+    "termsConditions": "Términos y Condiciones",
+    "rights": "Todos los derechos reservados."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 18 de octubre de 2025",
+    "backToHome": "← Volver al Inicio"
+  },
+  "terms": {
+    "title": "Términos y Condiciones",
+    "lastUpdated": "Última actualización: 18 de octubre de 2025",
+    "backToHome": "← Volver al Inicio"
+  }
+}

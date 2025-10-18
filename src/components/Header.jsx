@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { Menu, X, Gamepad2 } from 'lucide-react'
+import LanguageSwitcher from './LanguageSwitcher'
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const navigate = useNavigate()
   const location = useLocation()
+  const { t } = useTranslation()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -52,36 +55,40 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-6">
             <button onClick={() => scrollToSection('hero')} className="text-gray-300 hover:text-primary-400 transition-colors font-semibold relative group">
-              Ana Sayfa
+              {t('nav.home')}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-600 to-accent-600 group-hover:w-full transition-all duration-300"></span>
             </button>
             <button onClick={() => scrollToSection('games')} className="text-gray-300 hover:text-primary-400 transition-colors font-semibold relative group">
-              Oyunlar
+              {t('nav.games')}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-600 to-accent-600 group-hover:w-full transition-all duration-300"></span>
             </button>
             <button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-primary-400 transition-colors font-semibold relative group">
-              Hakkımızda
+              {t('nav.about')}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-600 to-accent-600 group-hover:w-full transition-all duration-300"></span>
             </button>
             <button onClick={() => scrollToSection('contact')} className="text-gray-300 hover:text-primary-400 transition-colors font-semibold relative group">
-              İletişim
+              {t('nav.contact')}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-600 to-accent-600 group-hover:w-full transition-all duration-300"></span>
             </button>
+            <LanguageSwitcher />
           </nav>
 
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden p-2 rounded-lg hover:bg-primary-50 transition-colors"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
+          {/* Mobile Actions */}
+          <div className="md:hidden flex items-center space-x-2">
+            <LanguageSwitcher />
+            <button
+              className="p-2 rounded-lg hover:bg-primary-50 transition-colors"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
             {isMobileMenuOpen ? (
               <X className="w-6 h-6 text-gray-300" />
             ) : (
               <Menu className="w-6 h-6 text-gray-300" />
             )}
-          </button>
+            </button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
@@ -89,16 +96,16 @@ const Header = () => {
           <nav className="md:hidden py-4 border-t border-white/10 glass-strong">
             <div className="flex flex-col space-y-4">
               <button onClick={() => scrollToSection('hero')} className="text-gray-300 hover:text-primary-400 transition-colors font-semibold text-left px-4 py-2 rounded-lg hover:bg-white/10">
-                Ana Sayfa
+                {t('nav.home')}
               </button>
               <button onClick={() => scrollToSection('games')} className="text-gray-300 hover:text-primary-400 transition-colors font-semibold text-left px-4 py-2 rounded-lg hover:bg-white/10">
-                Oyunlar
+                {t('nav.games')}
               </button>
               <button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-primary-400 transition-colors font-semibold text-left px-4 py-2 rounded-lg hover:bg-white/10">
-                Hakkımızda
+                {t('nav.about')}
               </button>
               <button onClick={() => scrollToSection('contact')} className="text-gray-300 hover:text-primary-400 transition-colors font-semibold text-left px-4 py-2 rounded-lg hover:bg-white/10">
-                İletişim
+                {t('nav.contact')}
               </button>
             </div>
           </nav>

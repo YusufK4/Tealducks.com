@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "games": "Jeux",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Bienvenue chez Teal Ducks",
+    "subtitle": "Studio de Jeux Indépendant",
+    "description": "Nous créons des jeux mobiles amusants et captivants",
+    "cta": "Découvrir les Jeux"
+  },
+  "games": {
+    "title": "Nos Jeux",
+    "subtitle": "Découvrez nos jeux mobiles",
+    "comingSoon": "Bientôt Disponible",
+    "preRegister": "Préinscription",
+    "playNow": "Jouer Maintenant",
+    "memoryDash": {
+      "title": "Memory Dash",
+      "description": "Testez votre mémoire avec ce jeu de puzzle rapide. Associez les cartes, battez votre meilleur score et défiez vos amis!",
+      "genre": "Puzzle"
+    }
+  },
+  "about": {
+    "title": "À Propos",
+    "subtitle": "Nous travaillons pour faire la différence dans le monde du jeu mobile",
+    "description1": "Teal Ducks est un studio de jeux indépendant né d'une passion pour le développement de jeux. Notre objectif est d'offrir aux joueurs des expériences de jeu mobile de qualité et amusantes.",
+    "description2": "En publiant nos jeux sur la plateforme Google Play, nous visons à offrir des expériences uniques aux joueurs. Dans chacun de nos jeux, nous donnons la priorité à l'expérience du joueur et nous nous efforçons de fournir des mécaniques innovantes et des designs impressionnants."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Contactez-nous",
+    "support": "Support",
+    "socialMedia": "Réseaux Sociaux",
+    "form": {
+      "name": "Votre Nom",
+      "namePlaceholder": "Votre nom complet",
+      "email": "Email",
+      "emailPlaceholder": "votre@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Votre message...",
+      "submit": "Envoyer le Message"
+    }
+  },
+  "footer": {
+    "brand": "Teal Ducks",
+    "quickLinks": "Liens Rapides",
+    "contact": "Contact",
+    "support": "Support",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsConditions": "Conditions Générales",
+    "rights": "Tous droits réservés."
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : 18 octobre 2025",
+    "backToHome": "← Retour à l'Accueil"
+  },
+  "terms": {
+    "title": "Conditions Générales",
+    "lastUpdated": "Dernière mise à jour : 18 octobre 2025",
+    "backToHome": "← Retour à l'Accueil"
+  }
+}
