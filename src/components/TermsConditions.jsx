@@ -1,6 +1,9 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 const TermsConditions = () => {
+  const { t } = useTranslation()
+  
   return (
     <section id="terms" className="py-20 bg-gradient-to-b from-slate-900 to-slate-800 min-h-screen">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -8,9 +11,9 @@ const TermsConditions = () => {
           {/* Header */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              <span className="text-gradient">Terms & Conditions</span>
+              <span className="text-gradient">{t('terms.title')}</span>
             </h1>
-            <p className="text-gray-400">Last updated: October 18, 2025</p>
+            <p className="text-gray-400">{t('terms.lastUpdated')}</p>
           </div>
 
           {/* Content */}
@@ -130,7 +133,7 @@ const TermsConditions = () => {
               href="/"
               className="inline-flex items-center space-x-2 text-primary-400 hover:text-primary-300 transition-colors"
             >
-              <span>← Ana Sayfaya Dön</span>
+              <span>{t('terms.backToHome')}</span>
             </a>
           </div>
         </div>
