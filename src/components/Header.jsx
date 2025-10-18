@@ -51,7 +51,7 @@ const Header = () => {
             <img 
               src="/logo.png" 
               alt="Teal Ducks Logo" 
-              className="w-12 h-12 md:w-14 md:h-14 object-contain hover:scale-110 transition-all"
+              className="w-16 h-16 md:w-20 md:h-20 object-contain hover:scale-110 transition-all"
             />
             <span className="text-xl md:text-2xl font-bold text-gradient" dir="ltr">Teal Ducks</span>
           </div>
