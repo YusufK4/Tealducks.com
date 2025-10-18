@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Gamepad2, Mail, ExternalLink } from 'lucide-react'
 
 const Footer = () => {
@@ -78,9 +79,9 @@ const Footer = () => {
               © {currentYear} Teal Ducks. Tüm hakları saklıdır.
             </p>
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
+              <Link to="/privacy-policy" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
                 Gizlilik Politikası
-              </a>
+              </Link>
               <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
                 Kullanım Koşulları
               </a>

@@ -1,23 +1,37 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Games from './components/Games'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import PrivacyPolicy from './components/PrivacyPolicy'
+
+// Home Page Component
+const HomePage = () => (
+  <>
+    <Hero />
+    <Games />
+    <About />
+    <Contact />
+  </>
+)
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <main>
-        <Hero />
-        <Games />
-        <About />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="min-h-screen">
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   )
 }
 
