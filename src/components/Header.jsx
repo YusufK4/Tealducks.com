@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Menu, X, Gamepad2 } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import LanguageSwitcher from './LanguageSwitcher'
 
 const Header = () => {
@@ -48,9 +48,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection('hero')}>
-            <div className="w-10 h-10 bg-gradient-to-br from-primary-500 via-accent-500 to-gaming-500 rounded-xl flex items-center justify-center shadow-lg shadow-primary-500/50 hover:shadow-accent-500/50 transition-all hover:scale-110">
-              <Gamepad2 className="w-6 h-6 text-white" />
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="Teal Ducks Logo" 
+              className="w-10 h-10 md:w-12 md:h-12 object-contain hover:scale-110 transition-all"
+            />
             <span className="text-xl md:text-2xl font-bold text-gradient" dir="ltr">Teal Ducks</span>
           </div>
 
