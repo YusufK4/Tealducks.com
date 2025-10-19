@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Mail, MessageSquare, Send, CheckCircle, AlertCircle } from 'lucide-react'
+import { MessageSquare, Send } from 'lucide-react'
 
 const Contact = () => {
   const { t } = useTranslation()
@@ -11,48 +11,20 @@ const Contact = () => {
     message: ''
   })
 
-  const [status, setStatus] = useState({
-    loading: false,
-    success: false,
-    error: null
-  })
-
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault()
     
-    setStatus({ loading: true, success: false, error: null })
+    // Email ile form gönderimi
+    const mailtoLink = `mailto:Yusuf@tealducks.com?subject=İletişim Formu: ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(
+      `İsim: ${formData.name}\nEmail: ${formData.email}\n\nMesaj:\n${formData.message}`
+    )}`
     
-    try {
-      const response = await fetch('/.netlify/functions/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      })
-
-      const data = await response.json()
-
-      if (!response.ok) {
-        throw new Error(data.error || 'Mesaj gönderilemedi')
-      }
-
-      setStatus({ loading: false, success: true, error: null })
+    window.location.href = mailtoLink
+    
+    // Formu temizle
+    setTimeout(() => {
       setFormData({ name: '', email: '', message: '' })
-      
-      // Success mesajını 5 saniye sonra kaldır
-      setTimeout(() => {
-        setStatus({ loading: false, success: false, error: null })
-      }, 5000)
-
-    } catch (error) {
-      console.error('Error:', error)
-      setStatus({ 
-        loading: false, 
-        success: false, 
-        error: error.message || 'Bir hata oluştu. Lütfen tekrar deneyin.' 
-      })
-    }
+    }, 100)
   }
 
   const handleChange = (e) => {
@@ -120,28 +92,6 @@ const Contact = () => {
 
             {/* Contact Form */}
             <div>
-              {/* Success Message */}
-              {status.success && (
-                <div className="mb-6 p-4 bg-green-500/10 border border-green-500/50 rounded-lg flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  <div>
-                    <h4 className="font-semibold text-green-500 mb-1">{t('contact.form.successTitle') || 'Mesajınız Gönderildi!'}</h4>
-                    <p className="text-sm text-green-400">{t('contact.form.successMessage') || 'En kısa sürede size geri dönüş yapacağız.'}</p>
-                  </div>
-                </div>
-              )}
-
-              {/* Error Message */}
-              {status.error && (
-                <div className="mb-6 p-4 bg-red-500/10 border border-red-500/50 rounded-lg flex items-start gap-3">
-                  <AlertCircle className="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" />
-                  <div>
-                    <h4 className="font-semibold text-red-500 mb-1">{t('contact.form.errorTitle') || 'Hata Oluştu'}</h4>
-                    <p className="text-sm text-red-400">{status.error}</p>
-                  </div>
-                </div>
-              )}
-
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
@@ -193,20 +143,10 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  disabled={status.loading}
-                  className="w-full inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-primary-500 via-accent-500 to-gaming-500 text-white px-6 py-4 rounded-xl font-bold shadow-2xl shadow-primary-500/50 hover:shadow-accent-500/50 transition-all transform hover:scale-105 hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                  className="w-full inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-primary-500 via-accent-500 to-gaming-500 text-white px-6 py-4 rounded-xl font-bold shadow-2xl shadow-primary-500/50 hover:shadow-accent-500/50 transition-all transform hover:scale-105 hover:-translate-y-1"
                 >
-                  {status.loading ? (
-                    <>
-                      <span>{t('contact.form.sending') || 'Gönderiliyor...'}</span>
-                      <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                    </>
-                  ) : (
-                    <>
-                      <span>{t('contact.form.submit')}</span>
-                      <Send className="w-5 h-5" />
-                    </>
-                  )}
+                  <span>{t('contact.form.submit')}</span>
+                  <Send className="w-5 h-5" />
                 </button>
               </form>
             </div>
