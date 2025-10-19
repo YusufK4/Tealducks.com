@@ -12,8 +12,8 @@ const Games = () => {
       title: t('games.memoryDash.title'),
       description: t('games.memoryDash.description'),
       image: "/images/games/MemoryDashLogo.jpg",
-      rating: 4.5,
-      downloads: "100+",
+      rating: null, // null = "New" badge gösterir, sayı = yıldız gösterir
+      downloads: t('games.new'), // "New" veya "100+", "1K+" gibi
       playStoreUrl: "https://play.google.com/store/apps/details?id=com.tealduck.memorydash",
       category: t('games.memoryDash.genre'),
       status: 'live' // 'live' or 'coming-soon'
@@ -62,7 +62,7 @@ const Games = () => {
                 <p className="text-gray-300 mb-4 line-clamp-2">{game.description}</p>
 
                 {/* Stats */}
-                {game.rating > 0 && (
+                {game.rating && game.rating > 0 && (
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center space-x-1">
                       <Star className="w-5 h-5 text-yellow-400 fill-current" />
@@ -74,9 +74,11 @@ const Games = () => {
                     </div>
                   </div>
                 )}
-                {game.rating === 0 && (
+                {(!game.rating || game.rating === 0) && (
                   <div className="mb-4 text-center py-2">
-                    <span className="text-primary-400 font-semibold">{t('games.comingSoon')}</span>
+                    <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-gradient-to-r from-primary-500/20 to-accent-500/20 text-primary-400 border border-primary-500/30">
+                      {game.downloads}
+                    </span>
                   </div>
                 )}
 
