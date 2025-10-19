@@ -72,7 +72,12 @@
       "emailPlaceholder": "tu@email.com",
       "message": "Mensaje",
       "messagePlaceholder": "Tu mensaje...",
-      "submit": "Enviar Mensaje"
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "successTitle": "¡Mensaje Enviado!",
+      "successMessage": "Nos pondremos en contacto contigo lo antes posible.",
+      "errorTitle": "Error Ocurrido",
+      "errorMessage": "No se pudo enviar el mensaje. Por favor, inténtalo de nuevo."
     }
   },
   "footer": {

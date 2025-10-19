@@ -72,7 +72,12 @@
       "emailPlaceholder": "ihre@email.com",
       "message": "Nachricht",
       "messagePlaceholder": "Ihre Nachricht...",
-      "submit": "Nachricht Senden"
+      "submit": "Nachricht Senden",
+      "sending": "Wird gesendet...",
+      "successTitle": "Nachricht gesendet!",
+      "successMessage": "Wir werden uns so schnell wie möglich bei Ihnen melden.",
+      "errorTitle": "Fehler aufgetreten",
+      "errorMessage": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
     }
   },
   "footer": {

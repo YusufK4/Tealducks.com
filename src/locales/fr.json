@@ -72,7 +72,12 @@
       "emailPlaceholder": "votre@email.com",
       "message": "Message",
       "messagePlaceholder": "Votre message...",
-      "submit": "Envoyer le Message"
+      "submit": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "successTitle": "Message Envoyé!",
+      "successMessage": "Nous vous répondrons dans les plus brefs délais.",
+      "errorTitle": "Erreur Survenue",
+      "errorMessage": "Échec de l'envoi du message. Veuillez réessayer."
     }
   },
   "footer": {

@@ -72,7 +72,12 @@
       "emailPlaceholder": "email@ornek.com",
       "message": "Mesaj",
       "messagePlaceholder": "Mesajınız...",
-      "submit": "Mesaj Gönder"
+      "submit": "Mesaj Gönder",
+      "sending": "Gönderiliyor...",
+      "successTitle": "Mesajınız Gönderildi!",
+      "successMessage": "En kısa sürede size geri dönüş yapacağız.",
+      "errorTitle": "Hata Oluştu",
+      "errorMessage": "Mesaj gönderilemedi. Lütfen tekrar deneyin."
     }
   },
   "footer": {

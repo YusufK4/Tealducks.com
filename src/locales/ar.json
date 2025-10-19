@@ -72,7 +72,12 @@
       "emailPlaceholder": "email@example.com",
       "message": "الرسالة",
       "messagePlaceholder": "رسالتك...",
-      "submit": "إرسال الرسالة"
+      "submit": "إرسال الرسالة",
+      "sending": "جارٍ الإرسال...",
+      "successTitle": "تم إرسال الرسالة!",
+      "successMessage": "سنعود إليك في أقرب وقت ممكن.",
+      "errorTitle": "حدث خطأ",
+      "errorMessage": "فشل إرسال الرسالة. يرجى المحاولة مرة أخرى."
     }
   },
   "footer": {
