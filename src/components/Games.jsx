@@ -11,10 +11,10 @@ const Games = () => {
       id: 1,
       title: t('games.memoryDash.title'),
       description: t('games.memoryDash.description'),
-      image: "https://play-lh.googleusercontent.com/YOUR_ICON_URL", // Memory Dash icon from Play Store
+      image: "/images/games/MemoryDashLogo.jpg",
       rating: 4.5,
-      downloads: "1K+",
-      playStoreUrl: "https://play.google.com/store/apps/details?id=com.tealducks.memorydash",
+      downloads: "100+",
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.tealduck.memorydash",
       category: t('games.memoryDash.genre'),
       status: 'live' // 'live' or 'coming-soon'
     }
