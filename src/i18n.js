@@ -32,8 +32,8 @@ i18n
     
     // Language detection configuration
     detection: {
-      // Order of detection methods
-      order: ['querystring', 'localStorage', 'navigator', 'htmlTag'],
+      // Order of detection methods - navigator first for better mobile detection
+      order: ['querystring', 'navigator', 'localStorage', 'htmlTag'],
       
       // Keys to lookup language from
       lookupQuerystring: 'lang',
@@ -43,7 +43,13 @@ i18n
       caches: ['localStorage'],
       
       // Only detect languages we support
-      checkWhitelist: true
+      checkWhitelist: true,
+      
+      // Convert browser language codes
+      convertDetectedLanguage: (lng) => {
+        // Extract base language (tr-TR -> tr, en-US -> en)
+        return lng.split('-')[0].toLowerCase()
+      }
     },
     
     interpolation: {
