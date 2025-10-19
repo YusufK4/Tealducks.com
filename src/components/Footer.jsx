@@ -47,7 +47,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://play.google.com/store/apps/dev?id=YOUR_DEVELOPER_ID"
+                  href="https://play.google.com/store/apps/dev?id=4897059701094920978"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-primary-400 transition-colors text-sm inline-flex items-center space-x-1"

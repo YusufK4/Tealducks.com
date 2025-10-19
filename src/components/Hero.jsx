@@ -46,7 +46,7 @@ const Hero = () => {
               <span>{t('hero.cta')}</span>
             </a>
             <a
-              href="https://play.google.com/store/apps/dev?id=YOUR_DEVELOPER_ID"
+              href="https://play.google.com/store/apps/dev?id=4897059701094920978"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 glass-strong text-white px-8 py-4 rounded-xl font-bold hover:bg-white/20 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1"
