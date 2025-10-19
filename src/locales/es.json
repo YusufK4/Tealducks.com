@@ -29,8 +29,8 @@
     "viewAll": "Ver todos los juegos",
     "memoryDash": {
       "title": "Memory Dash",
-      "description": "Pon a prueba tu memoria con este juego de rompecabezas de ritmo rápido. ¡Empareja cartas, supera tu puntuación más alta y desafía a tus amigos!",
-      "genre": "Rompecabezas"
+      "description": "Pon a prueba tu memoria con este juego de arcade de ritmo rápido. ¡Empareja cartas, supera tu puntuación más alta y desafía a tus amigos!",
+      "genre": "Arcade"
     }
   },
   "about": {

@@ -29,8 +29,8 @@
     "viewAll": "Alle Spiele ansehen",
     "memoryDash": {
       "title": "Memory Dash",
-      "description": "Teste dein Gedächtnis mit diesem rasanten Puzzlespiel. Finde passende Karten, schlage deinen Highscore und fordere deine Freunde heraus!",
-      "genre": "Puzzle"
+      "description": "Teste dein Gedächtnis mit diesem rasanten Arcade-Spiel. Finde passende Karten, schlage deinen Highscore und fordere deine Freunde heraus!",
+      "genre": "Arcade"
     }
   },
   "about": {

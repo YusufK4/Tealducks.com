@@ -29,8 +29,8 @@
     "playNow": "Play Now",
     "memoryDash": {
       "title": "Memory Dash",
-      "description": "Test your memory with this fast-paced puzzle game. Match cards, beat your high score, and challenge your friends!",
-      "genre": "Puzzle"
+      "description": "Test your memory with this fast-paced arcade game. Match cards, beat your high score, and challenge your friends!",
+      "genre": "Arcade"
     }
   },
   "about": {

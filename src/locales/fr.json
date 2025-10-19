@@ -29,8 +29,8 @@
     "viewAll": "Voir tous les jeux",
     "memoryDash": {
       "title": "Memory Dash",
-      "description": "Testez votre mémoire avec ce jeu de puzzle rapide. Associez les cartes, battez votre meilleur score et défiez vos amis!",
-      "genre": "Puzzle"
+      "description": "Testez votre mémoire avec ce jeu d'arcade rapide. Associez les cartes, battez votre meilleur score et défiez vos amis!",
+      "genre": "Arcade"
     }
   },
   "about": {
