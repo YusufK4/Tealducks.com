@@ -43,11 +43,11 @@ const Games = () => {
               className="glass rounded-2xl shadow-2xl hover:shadow-primary-500/30 transition-all duration-300 overflow-hidden group hover:bg-white/10 hover:-translate-y-2"
             >
               {/* Game Image */}
-              <div className="relative overflow-hidden bg-gradient-to-br from-slate-800 to-slate-900">
+              <div className="relative overflow-hidden bg-gradient-to-br from-slate-800 to-slate-900 aspect-square flex items-center justify-center">
                 <img
                   src={game.image}
                   alt={game.title}
-                  className="w-full h-48 object-contain p-4 transform group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-full object-contain p-8 transform group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute top-4 right-4 bg-gradient-to-r from-primary-600 to-accent-600 px-4 py-1.5 rounded-full text-sm font-bold shadow-lg">
                   <span className="text-white">
