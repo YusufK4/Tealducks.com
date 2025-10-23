@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Verified - Memory Runner</title>
+    <title>Email Verified - Memory Dash</title>
     <style>
         * {
             margin: 0;
@@ -138,18 +138,18 @@
         <div class="checkmark"></div>
         <h1>Email Verified!</h1>
         <p>Your email has been successfully verified.</p>
-        <p>Welcome to Memory Runner! 🎮</p>
+        <p>Welcome to Memory Dash! 🎮</p>
         
         <div class="spinner"></div>
         <p class="countdown">Opening game in <span id="countdown">3</span> seconds...</p>
         
-        <a href="memoryrunnergame://email-verified" class="game-link" id="manualLink" style="display: none;">
-            Open Memory Runner
+        <a href="memorydashgame://email-verified" class="game-link" id="manualLink" style="display: none;">
+            Open Memory Dash
         </a>
         
         <div class="error-message" id="errorMessage">
             <p>Game didn't open automatically?</p>
-            <p><small>Make sure Memory Runner is installed on your device.</small></p>
+            <p><small>Make sure Memory Dash is installed on your device.</small></p>
         </div>
     </div>
 
@@ -189,7 +189,7 @@
 
         function openGame() {
             // Deep link ile oyunu aç
-            window.location.href = 'memoryrunnergame://email-verified';
+            window.location.href = 'memorydashgame://email-verified';
             
             // 2 saniye sonra manuel link göster
             setTimeout(() => {
