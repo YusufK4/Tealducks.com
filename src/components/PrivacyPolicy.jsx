@@ -19,6 +19,7 @@ const PrivacyPolicy = () => {
           {/* Content */}
           <div className="glass-strong rounded-2xl p-8 md:p-12 space-y-8 text-gray-300 leading-relaxed">
             
+            {/* Introduction */}
             <div>
               <p>
                 This privacy policy applies to the <strong className="text-white">Memory Dash</strong> app (hereby referred to as "Application") for mobile devices that was created by <strong className="text-white">Teal Ducks</strong> (hereby referred to as "Service Provider") as an Ad Supported service. This service is intended for use "AS IS".
@@ -29,22 +30,35 @@ const PrivacyPolicy = () => {
             <div>
               <h2 className="text-2xl font-bold text-white mb-4">Information Collection and Use</h2>
               <p className="mb-4">
-                The Application collects information when you download and use it. This information may include information such as:
+                The Application collects information when you download and use it. This information may include details such as:
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Your device's Internet Protocol address (e.g. IP address)</li>
-                <li>The pages of the Application that you visit, the time and date of your visit, the time spent on those pages</li>
-                <li>The time spent on the Application</li>
+                <li>Your device's Internet Protocol address (e.g., IP address)</li>
+                <li>The pages of the Application that you visit, the time and date of your visit, and the time spent on those pages</li>
                 <li>The operating system you use on your mobile device</li>
               </ul>
               <p className="mt-4">
-                The Application does not gather precise information about the location of your mobile device.
+                The Application does not gather precise information about the location of your device.
               </p>
-              <p className="mt-4">
-                The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.
+            </div>
+
+            {/* Account Information */}
+            <div>
+              <h2 className="text-2xl font-bold text-white mb-4">Account Information</h2>
+              <p className="mb-4">
+                The Application allows users to create an account using a username, email address, and password.
               </p>
-              <p className="mt-4">
-                For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
+              <p className="mb-3">This information is used solely to:</p>
+              <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
+                <li>Enable account login and authentication</li>
+                <li>Personalize the in-app experience</li>
+                <li>Allow users to save their progress or data securely</li>
+              </ul>
+              <p className="mb-3">
+                Passwords are encrypted and stored securely.
+              </p>
+              <p>
+                The Service Provider does not share this account information with any third parties.
               </p>
             </div>
 
@@ -52,12 +66,12 @@ const PrivacyPolicy = () => {
             <div>
               <h2 className="text-2xl font-bold text-white mb-4">Third Party Access</h2>
               <p className="mb-4">
-                Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+                Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service.
               </p>
               <p className="mb-4">
-                Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
+                Please note that the Application utilizes third-party services that have their own Privacy Policy regarding data handling. Below are links to the Privacy Policies of third-party service providers used by the Application:
               </p>
-              <ul className="list-disc list-inside space-y-2 ml-4">
+              <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
                 <li>
                   <a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer" className="text-primary-400 hover:text-primary-300 underline">
                     Google Play Services
@@ -84,48 +98,51 @@ const PrivacyPolicy = () => {
                   </a>
                 </li>
               </ul>
-              <p className="mt-4">
-                The Service Provider may disclose User Provided and Automatically Collected Information:
+              <p>
+                The Service Provider may disclose information as required by law, such as to comply with a subpoena or similar legal process, or when disclosure is necessary to protect the Service Provider's rights or ensure user safety.
               </p>
-              <ul className="list-disc list-inside space-y-2 ml-4 mt-2">
-                <li>as required by law, such as to comply with a subpoena, or similar legal process;</li>
-                <li>when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;</li>
-                <li>with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.</li>
-              </ul>
+            </div>
+
+            {/* Account Deletion and Data Retention */}
+            <div>
+              <h2 className="text-2xl font-bold text-white mb-4">Account Deletion and Data Retention</h2>
+              <p className="mb-3">
+                Users may request deletion of their account and associated data by contacting{' '}
+                <a href="mailto:yusuf@tealducks.com" className="text-primary-400 hover:text-primary-300 underline">
+                  yusuf@tealducks.com
+                </a>.
+              </p>
+              <p className="mb-3">
+                Upon request, all personal data (email, username, and password) will be permanently deleted from our servers.
+              </p>
+              <p>
+                The Service Provider will retain user data for as long as the user maintains an account and for a reasonable period thereafter.
+              </p>
             </div>
 
             {/* Opt-Out Rights */}
             <div>
               <h2 className="text-2xl font-bold text-white mb-4">Opt-Out Rights</h2>
               <p>
-                You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+                You can stop all collection of information by uninstalling the Application. You may use the standard uninstall processes as available on your mobile device or through the application marketplace.
               </p>
             </div>
 
-            {/* Data Retention Policy */}
+            {/* Children's Privacy */}
             <div>
-              <h2 className="text-2xl font-bold text-white mb-4">Data Retention Policy</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">Children's Privacy</h2>
+              <p className="mb-3">
+                The Application is not intended for children under the age of 13.
+              </p>
+              <p className="mb-3">
+                The Service Provider does not knowingly collect personal information from children under 13. If it is discovered that a child under 13 has provided personal data, it will be promptly deleted.
+              </p>
               <p>
-                The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at{' '}
+                Parents or guardians may contact{' '}
                 <a href="mailto:yusuf@tealducks.com" className="text-primary-400 hover:text-primary-300 underline">
                   yusuf@tealducks.com
                 </a>{' '}
-                and they will respond in a reasonable time.
-              </p>
-            </div>
-
-            {/* Children */}
-            <div>
-              <h2 className="text-2xl font-bold text-white mb-4">Children</h2>
-              <p className="mb-4">
-                The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
-              </p>
-              <p>
-                The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider ({' '}
-                <a href="mailto:yusuf@tealducks.com" className="text-primary-400 hover:text-primary-300 underline">
-                  yusuf@tealducks.com
-                </a>
-                ) so that they will be able to take the necessary actions.
+                to request data removal.
               </p>
             </div>
 
@@ -133,7 +150,7 @@ const PrivacyPolicy = () => {
             <div>
               <h2 className="text-2xl font-bold text-white mb-4">Security</h2>
               <p>
-                The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
+                The Service Provider takes appropriate measures to safeguard the confidentiality of your information, including physical, electronic, and procedural safeguards.
               </p>
             </div>
 
@@ -141,10 +158,10 @@ const PrivacyPolicy = () => {
             <div>
               <h2 className="text-2xl font-bold text-white mb-4">Changes</h2>
               <p className="mb-4">
-                This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+                This Privacy Policy may be updated from time to time. The Service Provider will notify users of any changes by updating this page. You are advised to review this Privacy Policy periodically.
               </p>
               <p className="font-semibold text-white">
-                This privacy policy is effective as of 2025-10-18
+                This policy is effective as of 2025-10-18.
               </p>
             </div>
 
@@ -152,7 +169,7 @@ const PrivacyPolicy = () => {
             <div>
               <h2 className="text-2xl font-bold text-white mb-4">Your Consent</h2>
               <p>
-                By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
+                By using the Application, you consent to the processing of your information as described in this Privacy Policy.
               </p>
             </div>
 
@@ -160,10 +177,13 @@ const PrivacyPolicy = () => {
             <div>
               <h2 className="text-2xl font-bold text-white mb-4">Contact Us</h2>
               <p>
-                If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at{' '}
+                If you have any questions regarding privacy while using the Application, please contact the Service Provider at:
+              </p>
+              <p className="mt-3">
+                📧{' '}
                 <a href="mailto:yusuf@tealducks.com" className="text-primary-400 hover:text-primary-300 underline">
                   yusuf@tealducks.com
-                </a>.
+                </a>
               </p>
             </div>
 
