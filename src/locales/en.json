@@ -87,16 +87,125 @@
     "support": "Support",
     "privacyPolicy": "Privacy Policy",
     "termsConditions": "Terms & Conditions",
+    "dataDeletion": "Data Deletion",
     "rights": "All rights reserved."
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: October 18, 2025",
-    "backToHome": "← Back to Home"
+    "lastUpdated": "Effective Date: October 18, 2025",
+    "backToHome": "← Back to Home",
+    "intro": "This Privacy Policy applies to the Memory Dash mobile application (the \"Application\"), developed by Teal Ducks (the \"Service Provider\"). By using the Application, you agree to the collection and use of information as described in this policy.",
+    "section1": {
+      "title": "1. Information We Collect",
+      "intro": "The Application does not create or manage its own user accounts. Users authenticate through Google Play Games Services. We collect and store the following data:",
+      "subsection1": {
+        "title": "1.1 Google Play Games Information",
+        "intro": "When you sign in using Google Play Games Services, we may access:",
+        "item1": "Google Play Games Player ID",
+        "item2": "Display name associated with your Google Play Games profile",
+        "item3": "Your leaderboard scores",
+        "item4": "Achievements (if implemented later)",
+        "purpose": "This information is required to enable leaderboard functionality and to maintain game progress related to Play Games features."
+      },
+      "subsection2": {
+        "title": "1.2 Leaderboard Data (via PlayFab)",
+        "intro": "To store leaderboard scores, the Application uses PlayFab, a third-party backend service.",
+        "stored": "Stored leaderboard data may include:",
+        "item1": "Google Play Games Player ID",
+        "item2": "Player score",
+        "item3": "Timestamp of score submission",
+        "noPersonalData": "No personal information such as email, device ID, or IP address is stored by the Service Provider."
+      },
+      "subsection3": {
+        "title": "1.3 Advertising Data (AdMob)",
+        "intro": "The Application displays ads via Google AdMob.",
+        "mayCollect": "AdMob may collect:",
+        "item1": "Device identifiers",
+        "item2": "IP address",
+        "item3": "App usage data",
+        "item4": "Approximate location (not precise GPS)",
+        "processed": "This data is processed according to Google's advertising policies.",
+        "policy": "AdMob Privacy Policy can be found under Google Play Services."
+      }
+    },
+    "section2": {
+      "title": "2. Third-Party Services",
+      "intro": "The Application uses the following third-party SDKs and services:",
+      "service1": {
+        "name": "Google Play Games Services",
+        "description": "Used for authentication and gaming features."
+      },
+      "service2": {
+        "name": "Google AdMob",
+        "description": "Used for displaying advertisements."
+      },
+      "service3": {
+        "name": "PlayFab (Microsoft Game Stack)",
+        "description": "Used for storing leaderboard scores."
+      }
+    },
+    "section3": {
+      "title": "3. Account & Data Deletion",
+      "intro": "The Application does not create an internal user account system.",
+      "requestInfo": "However, users may request deletion of data stored by the Service Provider (leaderboard entries stored in PlayFab). You may request data deletion by contacting:",
+      "whenRequested": "When a deletion request is received:",
+      "deletion1": "All leaderboard entries linked to your Google Play Games Player ID will be permanently removed from PlayFab",
+      "deletion2": "No additional or hidden user data is stored by the Application",
+      "deletion3": "Google Play Games account data cannot be deleted by the Service Provider (This is controlled by Google and can only be managed by the user)"
+    },
+    "section4": {
+      "title": "4. Children's Privacy",
+      "notIntended": "The Application is not intended for children under the age of 13.",
+      "noKnowingly": "We do not knowingly collect personal information from children. If such data is discovered, it will be deleted immediately."
+    },
+    "section5": {
+      "title": "5. Security",
+      "description": "The Service Provider takes reasonable measures to protect user information stored in PlayFab from unauthorized access or disclosure."
+    },
+    "section6": {
+      "title": "6. Changes to This Policy",
+      "description": "This Privacy Policy may be updated periodically. You are encouraged to review this page occasionally for changes."
+    },
+    "section7": {
+      "title": "7. Contact Us",
+      "description": "For privacy-related questions or data deletion requests, you may contact:",
+      "developer": "Developer: Teal Ducks"
+    }
   },
   "terms": {
     "title": "Terms & Conditions",
     "lastUpdated": "Last updated: October 18, 2025",
+    "backToHome": "← Back to Home"
+  },
+  "dataDeletion": {
+    "title": "Data Deletion Request",
+    "lastUpdated": "Last updated: November 21, 2024",
+    "intro": "This page explains how users can request the deletion of their data for the Memory Dash app, provided by Teal Ducks.",
+    "noUserAccounts": "Memory Dash does not create its own user accounts.",
+    "authMethod": "Authentication is handled through Google Play Games Services.",
+    "appStores": "The app only stores the following data:",
+    "storeItem1": "Google Play Games Player ID",
+    "storeItem2": "Leaderboard scores (via PlayFab)",
+    "canDelete": {
+      "title": "Data That Can Be Deleted",
+      "weCanDelete": "We can delete:",
+      "item1": "All leaderboard scores stored in PlayFab",
+      "googleNote": "Your Google Play Games account cannot be deleted by the developer.",
+      "googleManaged": "It is managed solely by Google and can only be controlled by the user."
+    },
+    "howToRequest": {
+      "title": "How to Request Deletion",
+      "description": "To request data deletion, please contact us at:",
+      "subjectLine": "Include the subject line: \"Memory Dash Data Deletion Request\"."
+    },
+    "timeline": {
+      "title": "Deletion Timeline",
+      "description": "Your data will be permanently deleted within 72 hours after receiving the request."
+    },
+    "contact": {
+      "title": "Contact",
+      "company": "Teal Ducks"
+    },
     "backToHome": "← Back to Home"
   }
 }

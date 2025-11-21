@@ -87,16 +87,125 @@
     "support": "Destek",
     "privacyPolicy": "Gizlilik Politikası",
     "termsConditions": "Kullanım Koşulları",
+    "dataDeletion": "Veri Silme",
     "rights": "Tüm hakları saklıdır."
   },
   "privacy": {
     "title": "Gizlilik Politikası",
-    "lastUpdated": "Son güncelleme: 18 Ekim 2025",
-    "backToHome": "← Ana Sayfaya Dön"
+    "lastUpdated": "Yürürlük Tarihi: 18 Ekim 2025",
+    "backToHome": "← Ana Sayfaya Dön",
+    "intro": "Bu Gizlilik Politikası, Teal Ducks tarafından geliştirilen Memory Dash mobil uygulaması (\"Uygulama\") için geçerlidir. Uygulamayı kullanarak, bu politikada açıklandığı şekilde bilgilerin toplanmasını ve kullanılmasını kabul etmiş olursunuz.",
+    "section1": {
+      "title": "1. Topladığımız Bilgiler",
+      "intro": "Uygulama kendi kullanıcı hesaplarını oluşturmaz veya yönetmez. Kullanıcılar Google Play Games Servisleri aracılığıyla kimlik doğrulaması yapar. Aşağıdaki verileri topluyoruz ve saklıyoruz:",
+      "subsection1": {
+        "title": "1.1 Google Play Games Bilgileri",
+        "intro": "Google Play Games Servisleri ile giriş yaptığınızda şu bilgilere erişebiliriz:",
+        "item1": "Google Play Games Oyuncu ID'si",
+        "item2": "Google Play Games profilinizle ilişkili görünen ad",
+        "item3": "Liderlik tablosu skorlarınız",
+        "item4": "Başarımlar (daha sonra uygulanırsa)",
+        "purpose": "Bu bilgiler, liderlik tablosu işlevselliğini etkinleştirmek ve Play Games özellikleriyle ilgili oyun ilerlemesini korumak için gereklidir."
+      },
+      "subsection2": {
+        "title": "1.2 Liderlik Tablosu Verileri (PlayFab aracılığıyla)",
+        "intro": "Liderlik tablosu skorlarını saklamak için Uygulama, üçüncü taraf bir backend servisi olan PlayFab'ı kullanır.",
+        "stored": "Saklanan liderlik tablosu verileri şunları içerebilir:",
+        "item1": "Google Play Games Oyuncu ID'si",
+        "item2": "Oyuncu skoru",
+        "item3": "Skor gönderim zaman damgası",
+        "noPersonalData": "E-posta, cihaz ID'si veya IP adresi gibi kişisel bilgiler Hizmet Sağlayıcı tarafından saklanmaz."
+      },
+      "subsection3": {
+        "title": "1.3 Reklam Verileri (AdMob)",
+        "intro": "Uygulama, Google AdMob aracılığıyla reklamlar gösterir.",
+        "mayCollect": "AdMob şunları toplayabilir:",
+        "item1": "Cihaz tanımlayıcıları",
+        "item2": "IP adresi",
+        "item3": "Uygulama kullanım verileri",
+        "item4": "Yaklaşık konum (kesin GPS değil)",
+        "processed": "Bu veriler Google'ın reklam politikalarına göre işlenir.",
+        "policy": "AdMob Gizlilik Politikası, Google Play Servisleri altında bulunabilir."
+      }
+    },
+    "section2": {
+      "title": "2. Üçüncü Taraf Servisler",
+      "intro": "Uygulama aşağıdaki üçüncü taraf SDK'ları ve servisleri kullanır:",
+      "service1": {
+        "name": "Google Play Games Servisleri",
+        "description": "Kimlik doğrulama ve oyun özellikleri için kullanılır."
+      },
+      "service2": {
+        "name": "Google AdMob",
+        "description": "Reklamları görüntülemek için kullanılır."
+      },
+      "service3": {
+        "name": "PlayFab (Microsoft Game Stack)",
+        "description": "Liderlik tablosu skorlarını saklamak için kullanılır."
+      }
+    },
+    "section3": {
+      "title": "3. Hesap ve Veri Silme",
+      "intro": "Uygulama dahili bir kullanıcı hesabı sistemi oluşturmaz.",
+      "requestInfo": "Ancak kullanıcılar, Hizmet Sağlayıcı tarafından saklanan verilerin (PlayFab'da saklanan liderlik tablosu girişleri) silinmesini talep edebilir. Veri silme talebinde bulunmak için iletişime geçebilirsiniz:",
+      "whenRequested": "Bir silme talebi alındığında:",
+      "deletion1": "Google Play Games Oyuncu ID'nize bağlı tüm liderlik tablosu girişleri PlayFab'dan kalıcı olarak kaldırılacaktır",
+      "deletion2": "Uygulama tarafından ek veya gizli kullanıcı verisi saklanmaz",
+      "deletion3": "Google Play Games hesap verileri Hizmet Sağlayıcı tarafından silinemez (Bu Google tarafından kontrol edilir ve yalnızca kullanıcı tarafından yönetilebilir)"
+    },
+    "section4": {
+      "title": "4. Çocukların Gizliliği",
+      "notIntended": "Uygulama 13 yaşın altındaki çocuklar için tasarlanmamıştır.",
+      "noKnowingly": "Çocuklardan bilerek kişisel bilgi toplamıyoruz. Böyle bir veri keşfedilirse derhal silinecektir."
+    },
+    "section5": {
+      "title": "5. Güvenlik",
+      "description": "Hizmet Sağlayıcı, PlayFab'da saklanan kullanıcı bilgilerini yetkisiz erişim veya ifşadan korumak için makul önlemler alır."
+    },
+    "section6": {
+      "title": "6. Bu Politikadaki Değişiklikler",
+      "description": "Bu Gizlilik Politikası periyodik olarak güncellenebilir. Değişiklikler için bu sayfayı ara sıra gözden geçirmeniz önerilir."
+    },
+    "section7": {
+      "title": "7. Bize Ulaşın",
+      "description": "Gizlilikle ilgili sorularınız veya veri silme talepleriniz için iletişime geçebilirsiniz:",
+      "developer": "Geliştirici: Teal Ducks"
+    }
   },
   "terms": {
     "title": "Kullanım Koşulları",
     "lastUpdated": "Son güncelleme: 18 Ekim 2025",
+    "backToHome": "← Ana Sayfaya Dön"
+  },
+  "dataDeletion": {
+    "title": "Veri Silme Talebi",
+    "lastUpdated": "Son güncelleme: 21 Kasım 2024",
+    "intro": "Bu sayfa, Teal Ducks tarafından sağlanan Memory Dash uygulaması için kullanıcıların verilerinin silinmesini nasıl talep edebileceklerini açıklar.",
+    "noUserAccounts": "Memory Dash kendi kullanıcı hesaplarını oluşturmaz.",
+    "authMethod": "Kimlik doğrulama, Google Play Games Servisleri aracılığıyla yapılır.",
+    "appStores": "Uygulama yalnızca aşağıdaki verileri saklar:",
+    "storeItem1": "Google Play Games Oyuncu ID'si",
+    "storeItem2": "Liderlik tablosu skorları (PlayFab aracılığıyla)",
+    "canDelete": {
+      "title": "Silinebilecek Veriler",
+      "weCanDelete": "Silebileceğimiz veriler:",
+      "item1": "PlayFab'da saklanan tüm liderlik tablosu skorları",
+      "googleNote": "Google Play Games hesabınız geliştirici tarafından silinemez.",
+      "googleManaged": "Bu hesap yalnızca Google tarafından yönetilir ve yalnızca kullanıcı tarafından kontrol edilebilir."
+    },
+    "howToRequest": {
+      "title": "Silme Talebi Nasıl Yapılır",
+      "description": "Veri silme talebinde bulunmak için lütfen bizimle iletişime geçin:",
+      "subjectLine": "Konu satırına şunu ekleyin: \"Memory Dash Veri Silme Talebi\"."
+    },
+    "timeline": {
+      "title": "Silme Süresi",
+      "description": "Verileriniz, talebi aldıktan sonra 72 saat içinde kalıcı olarak silinecektir."
+    },
+    "contact": {
+      "title": "İletişim",
+      "company": "Teal Ducks"
+    },
     "backToHome": "← Ana Sayfaya Dön"
   }
 }

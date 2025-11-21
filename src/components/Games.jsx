@@ -11,7 +11,7 @@ const Games = () => {
       id: 1,
       title: t('games.memoryDash.title'),
       description: t('games.memoryDash.description'),
-      image: "/images/games/MemoryDashLogo.jpg",
+      image: "/images/games/MemoryDash.png",
       rating: null, // null = "New" badge gösterir, sayı = yıldız gösterir
       downloads: t('games.new'), // "New" veya "100+", "1K+" gibi
       playStoreUrl: "https://play.google.com/store/apps/details?id=com.tealduck.memorydash",

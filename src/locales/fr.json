@@ -87,16 +87,125 @@
     "support": "Support",
     "privacyPolicy": "Politique de Confidentialité",
     "termsConditions": "Conditions Générales",
+    "dataDeletion": "Suppression des Données",
     "rights": "Tous droits réservés."
   },
   "privacy": {
     "title": "Politique de Confidentialité",
-    "lastUpdated": "Dernière mise à jour : 18 octobre 2025",
-    "backToHome": "← Retour à l'Accueil"
+    "lastUpdated": "Date d'entrée en vigueur : 18 octobre 2025",
+    "backToHome": "← Retour à l'Accueil",
+    "intro": "Cette Politique de Confidentialité s'applique à l'application mobile Memory Dash (l'\"Application\"), développée par Teal Ducks (le \"Fournisseur de Services\"). En utilisant l'Application, vous acceptez la collecte et l'utilisation des informations comme décrit dans cette politique.",
+    "section1": {
+      "title": "1. Informations que Nous Collectons",
+      "intro": "L'Application ne crée ni ne gère ses propres comptes utilisateur. Les utilisateurs s'authentifient via Google Play Games Services. Nous collectons et stockons les données suivantes :",
+      "subsection1": {
+        "title": "1.1 Informations Google Play Games",
+        "intro": "Lorsque vous vous connectez en utilisant Google Play Games Services, nous pouvons accéder à :",
+        "item1": "ID de joueur Google Play Games",
+        "item2": "Nom d'affichage associé à votre profil Google Play Games",
+        "item3": "Vos scores du classement",
+        "item4": "Succès (si implémentés ultérieurement)",
+        "purpose": "Ces informations sont nécessaires pour activer la fonctionnalité du classement et maintenir la progression du jeu liée aux fonctionnalités Play Games."
+      },
+      "subsection2": {
+        "title": "1.2 Données du Classement (via PlayFab)",
+        "intro": "Pour stocker les scores du classement, l'Application utilise PlayFab, un service backend tiers.",
+        "stored": "Les données du classement stockées peuvent inclure :",
+        "item1": "ID de joueur Google Play Games",
+        "item2": "Score du joueur",
+        "item3": "Horodatage de la soumission du score",
+        "noPersonalData": "Aucune information personnelle telle que l'e-mail, l'ID de l'appareil ou l'adresse IP n'est stockée par le Fournisseur de Services."
+      },
+      "subsection3": {
+        "title": "1.3 Données Publicitaires (AdMob)",
+        "intro": "L'Application affiche des publicités via Google AdMob.",
+        "mayCollect": "AdMob peut collecter :",
+        "item1": "Identifiants de l'appareil",
+        "item2": "Adresse IP",
+        "item3": "Données d'utilisation de l'application",
+        "item4": "Localisation approximative (pas de GPS précis)",
+        "processed": "Ces données sont traitées conformément aux politiques publicitaires de Google.",
+        "policy": "La Politique de Confidentialité d'AdMob peut être trouvée sous Google Play Services."
+      }
+    },
+    "section2": {
+      "title": "2. Services Tiers",
+      "intro": "L'Application utilise les SDK et services tiers suivants :",
+      "service1": {
+        "name": "Google Play Games Services",
+        "description": "Utilisé pour l'authentification et les fonctionnalités de jeu."
+      },
+      "service2": {
+        "name": "Google AdMob",
+        "description": "Utilisé pour afficher des publicités."
+      },
+      "service3": {
+        "name": "PlayFab (Microsoft Game Stack)",
+        "description": "Utilisé pour stocker les scores du classement."
+      }
+    },
+    "section3": {
+      "title": "3. Compte et Suppression des Données",
+      "intro": "L'Application ne crée pas de système de compte utilisateur interne.",
+      "requestInfo": "Cependant, les utilisateurs peuvent demander la suppression des données stockées par le Fournisseur de Services (entrées du classement stockées dans PlayFab). Vous pouvez demander la suppression des données en contactant :",
+      "whenRequested": "Lorsqu'une demande de suppression est reçue :",
+      "deletion1": "Toutes les entrées du classement liées à votre ID de joueur Google Play Games seront définitivement supprimées de PlayFab",
+      "deletion2": "Aucune donnée utilisateur supplémentaire ou cachée n'est stockée par l'Application",
+      "deletion3": "Les données du compte Google Play Games ne peuvent pas être supprimées par le Fournisseur de Services (Ceci est contrôlé par Google et ne peut être géré que par l'utilisateur)"
+    },
+    "section4": {
+      "title": "4. Confidentialité des Enfants",
+      "notIntended": "L'Application n'est pas destinée aux enfants de moins de 13 ans.",
+      "noKnowingly": "Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants. Si de telles données sont découvertes, elles seront supprimées immédiatement."
+    },
+    "section5": {
+      "title": "5. Sécurité",
+      "description": "Le Fournisseur de Services prend des mesures raisonnables pour protéger les informations des utilisateurs stockées dans PlayFab contre tout accès non autorisé ou divulgation."
+    },
+    "section6": {
+      "title": "6. Modifications de Cette Politique",
+      "description": "Cette Politique de Confidentialité peut être mise à jour périodiquement. Vous êtes encouragé à consulter cette page occasionnellement pour les modifications."
+    },
+    "section7": {
+      "title": "7. Nous Contacter",
+      "description": "Pour les questions relatives à la confidentialité ou les demandes de suppression de données, vous pouvez contacter :",
+      "developer": "Développeur : Teal Ducks"
+    }
   },
   "terms": {
     "title": "Conditions Générales",
     "lastUpdated": "Dernière mise à jour : 18 octobre 2025",
+    "backToHome": "← Retour à l'Accueil"
+  },
+  "dataDeletion": {
+    "title": "Demande de Suppression de Données",
+    "lastUpdated": "Dernière mise à jour : 21 novembre 2024",
+    "intro": "Cette page explique comment les utilisateurs peuvent demander la suppression de leurs données pour l'application Memory Dash, fournie par Teal Ducks.",
+    "noUserAccounts": "Memory Dash ne crée pas ses propres comptes utilisateur.",
+    "authMethod": "L'authentification est gérée via Google Play Games Services.",
+    "appStores": "L'application ne stocke que les données suivantes :",
+    "storeItem1": "ID de joueur Google Play Games",
+    "storeItem2": "Scores du classement (via PlayFab)",
+    "canDelete": {
+      "title": "Données Pouvant Être Supprimées",
+      "weCanDelete": "Nous pouvons supprimer :",
+      "item1": "Tous les scores du classement stockés dans PlayFab",
+      "googleNote": "Votre compte Google Play Games ne peut pas être supprimé par le développeur.",
+      "googleManaged": "Il est géré uniquement par Google et ne peut être contrôlé que par l'utilisateur."
+    },
+    "howToRequest": {
+      "title": "Comment Demander la Suppression",
+      "description": "Pour demander la suppression de données, veuillez nous contacter à :",
+      "subjectLine": "Incluez l'objet : \"Demande de Suppression de Données Memory Dash\"."
+    },
+    "timeline": {
+      "title": "Délai de Suppression",
+      "description": "Vos données seront définitivement supprimées dans les 72 heures suivant la réception de la demande."
+    },
+    "contact": {
+      "title": "Contact",
+      "company": "Teal Ducks"
+    },
     "backToHome": "← Retour à l'Accueil"
   }
 }

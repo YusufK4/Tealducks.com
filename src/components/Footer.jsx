@@ -89,6 +89,9 @@ const Footer = () => {
               <Link to="/terms-conditions" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
                 {t('footer.termsConditions')}
               </Link>
+              <Link to="/data-deletion" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
+                {t('footer.dataDeletion')}
+              </Link>
             </div>
           </div>
         </div>
